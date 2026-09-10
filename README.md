@@ -88,7 +88,7 @@ Private release assets also require repository access. Instructors distribute th
 - Before a release, run CI, review both languages and OS tabs in a headless browser, and rehearse the actual Bob flow on macOS and Windows. Documentation build success is not a Bob runtime test.
 - Consider an annotated semantic-version tag for every pushed change. Reader-visible teaching changes warrant a release; release notes summarize behavior and materials, not a list of commits.
 
-Build localized ZIPs with `python setup/instructor/build_participant_zips.py`. The release workflow attaches the two packages to an existing release; create it as a draft before pushing its annotated tag, then publish it after the workflow succeeds. Initial version `v0.1.0` is a teaching draft pending a facilitated rehearsal.
+Build localized ZIPs with `python setup/instructor/build_participant_zips.py`. Push an annotated version tag and create its GitHub release with English notes. The published-release event builds and attaches both packages; verify that workflow before distributing the release. Initial version `v0.1.0` is a teaching draft pending a facilitated rehearsal.
 
 ## License
 
