@@ -103,11 +103,11 @@ counterpart_for_file() {
     local source_file="$1"
 
     if [[ "$source_file" == setup/participant/en/* ]]; then
-        printf '%s\n' "${source_file/setup\/participant\/en/setup\/participant\/ja}"
+        printf '%s\n' "setup/participant/ja/${source_file#setup/participant/en/}"
         return
     fi
     if [[ "$source_file" == setup/participant/ja/* ]]; then
-        printf '%s\n' "${source_file/setup\/participant\/ja/setup\/participant\/en}"
+        printf '%s\n' "setup/participant/en/${source_file#setup/participant/ja/}"
         return
     fi
 
