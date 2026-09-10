@@ -47,4 +47,4 @@ Explorer は、承認を受けてスキルやモードを導入することも�
 - Building Blocks ドキュメント: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
 - Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs>
 
-[次へ →](preparation.md) { .workshop-next }
+[次へ →](preparation.md){ .workshop-next }

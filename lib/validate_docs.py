@@ -15,7 +15,9 @@ ERRORS = []
 
 def check_source(path):
     source = path.read_text(encoding="utf-8")
-    tokens = MarkdownIt("commonmark").parse(source)
+    # CommonMark does not parse MkDocs link class attributes as markup.
+    prose_source = re.sub(r"(?<=\))\{(?:\s+\.[\w-]+)+\s*\}", "", source)
+    tokens = MarkdownIt("commonmark").parse(prose_source)
     for token in tokens:
         if token.type != "inline":
             continue
@@ -56,6 +58,13 @@ def check_site():
         article = soup.select_one(".md-content__inner")
         if not article:
             continue
+        # Every lesson except the summary must render one styled next link.
+        relative = path.relative_to(site).as_posix()
+        next_pages = {f"{prefix}{page}" for prefix in ("", "ja/")
+                      for page in ("index.html", "preparation/index.html",
+                                   "part1/index.html", "part2/index.html")}
+        if relative in next_pages and len(article.select("a.workshop-next[href]")) != 1:
+            ERRORS.append(f"Missing styled next button in {path.relative_to(ROOT)}")
         for node in article.find_all(string=True):
             if "**" in node and not node.find_parent(["pre", "code", "script", "style"]):
                 ERRORS.append(f"Visible emphasis delimiter in {path.relative_to(ROOT)}")

@@ -79,4 +79,4 @@ Approve the requested local document write if prompted. If Bob cannot write it, 
 
 Check the source supports the recommendation and the handoff includes two open questions and an observable success criterion. For example, plan to test retrieval of a dummy secret without hardcoding it; do not run that test during this workshop.
 
-[Next →](summary.md) { .workshop-next }
+[Next →](summary.md){ .workshop-next }

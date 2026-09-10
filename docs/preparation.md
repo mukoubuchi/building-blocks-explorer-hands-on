@@ -62,4 +62,4 @@ Both commands should print a version number. Save your work, fully quit Bob, and
 
     If these work, follow the installer's PATH instructions. If setup remains blocked, ask the instructor and continue in a working pair.
 
-[Next →](part1.md) { .workshop-next }
+[Next →](part1.md){ .workshop-next }

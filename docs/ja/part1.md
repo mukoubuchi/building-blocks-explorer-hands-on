@@ -50,4 +50,4 @@ Building Blocks のカタログツールを使い、AI、Data、Automation か�
 
 参考: [公式の Explorer ガイド](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs)。
 
-[次へ →](part2.md) { .workshop-next }
+[次へ →](part2.md){ .workshop-next }

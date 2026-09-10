@@ -47,4 +47,4 @@ Explorer can install selected skills and modes with your approval. This workshop
 - Building Blocks documentation: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
 - Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs>
 
-[Next →](preparation.md) { .workshop-next }
+[Next →](preparation.md){ .workshop-next }

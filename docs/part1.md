@@ -50,4 +50,4 @@ Confirm a catalog tool result (such as `list_building_blocks`) and open a source
 
 Reference: [official Explorer guide](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs).
 
-[Next →](part2.md) { .workshop-next }
+[Next →](part2.md){ .workshop-next }
