@@ -172,3 +172,34 @@ body[data-md-color-scheme="default"] {
 .md-typeset details {
     border-color: var(--workshop-support-focus) !important;
 }
+
+/* Highlight top navigation like the OS selector. */
+.md-tabs__link {
+    padding: 0.4em 0.8em;
+    border-radius: 6px 6px 0 0;
+}
+.md-tabs__link:hover {
+    background-color: color-mix(in srgb, white 8%, transparent);
+}
+.md-tabs__link--active,
+.md-tabs__item--active .md-tabs__link {
+    background-color: color-mix(in srgb, white 14%, transparent);
+}
+
+.md-tabs__link::after {
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+}
+
+/* Keep each tab within the header so its bottom underline is not clipped. */
+.md-tabs__link {
+    margin-top: 0 !important;
+    padding: 0 1rem !important;
+}
+
+/* Use a compact tab background while keeping its underline inside the header. */
+.md-tabs__link {
+    height: 2rem !important;
+    align-self: flex-end;
+}
