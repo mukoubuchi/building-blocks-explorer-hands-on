@@ -145,3 +145,30 @@ body, .md-typeset pre > code {
     transition: none !important;
     animation: none !important;
 }
+
+/* Heritage Cambridge Blue for supporting callouts and completion controls. */
+body[data-md-color-scheme="default"] {
+    --workshop-support: #85b09a;
+    --workshop-support-focus: color-mix(in srgb, var(--workshop-support) 8%, white);
+}
+.md-typeset .admonition > .admonition-title,
+.md-typeset details > summary {
+    background-color: var(--workshop-support-focus) !important;
+}
+.md-typeset .admonition > .admonition-title::before,
+.md-typeset details > summary::before {
+    background-color: var(--workshop-support) !important;
+}
+.md-typeset details > summary::after { color: var(--workshop-support) !important; }
+.md-typeset details:focus-within {
+    box-shadow: 0 0 0 2px var(--workshop-support-focus);
+}
+.md-typeset .task-list-control input:checked + .task-list-indicator::before {
+    background-color: var(--workshop-support);
+}
+.md-typeset input[type="checkbox"] { accent-color: var(--workshop-support); }
+
+.md-typeset .admonition,
+.md-typeset details {
+    border-color: var(--workshop-support-focus) !important;
+}
