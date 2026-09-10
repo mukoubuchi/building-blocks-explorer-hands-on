@@ -1,0 +1,19 @@
+# Local environments and secrets
+.env
+*.env
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.bob/
+# Generated documentation, packages, and validation output
+site/
+dist/
+docs/.cache/
+.local/
+changed_files.txt
+building-blocks-explorer-workshop-*.zip

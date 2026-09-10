@@ -1,0 +1,81 @@
+"""Validate bilingual source coverage, CommonMark emphasis, and built links."""
+
+from pathlib import Path
+from urllib.parse import unquote, urlsplit
+import re
+import sys
+
+from bs4 import BeautifulSoup
+from markdown_it import MarkdownIt
+
+ROOT = Path(__file__).resolve().parents[1]
+PAGES = ("index", "preparation", "part1", "part2", "part3", "summary", "feedback")
+ERRORS = []
+
+
+def check_source(path):
+    source = path.read_text(encoding="utf-8")
+    tokens = MarkdownIt("commonmark").parse(source)
+    for token in tokens:
+        if token.type != "inline":
+            continue
+        for child in token.children or []:
+            if child.type == "text" and "**" in child.content:
+                ERRORS.append(f"Unrendered emphasis in {path.relative_to(ROOT)}: {child.content}")
+    if "/ja/" in path.as_posix() and path.name != "README.md":
+        # Code and link destinations are excluded from Japanese prose checks.
+        for token in tokens:
+            if token.type != "inline":
+                continue
+            for child in token.children or []:
+                if child.type == "text" and re.search(r"[()]", child.content):
+                    ERRORS.append(f"Half-width prose parentheses in {path.relative_to(ROOT)}: {child.content}")
+
+
+def check_site():
+    site = ROOT / "site"
+    if not (site / "index.html").is_file():
+        ERRORS.append("Build the site with mkdocs build --strict before validation")
+        return
+    for path in site.rglob("*.html"):
+        soup = BeautifulSoup(path.read_text(encoding="utf-8"), "html.parser")
+        article = soup.select_one(".md-content__inner")
+        if not article:
+            continue
+        for node in article.find_all(string=True):
+            if "**" in node and not node.find_parent(["pre", "code", "script", "style"]):
+                ERRORS.append(f"Visible emphasis delimiter in {path.relative_to(ROOT)}")
+        for link in article.select("a[href], img[src]"):
+            url = urlsplit(link.get("href", link.get("src", "")))
+            if url.scheme or url.netloc or url.path.startswith("/"):
+                continue
+            target = (path.parent / unquote(url.path)).resolve() if url.path else path
+            if target.is_dir():
+                target /= "index.html"
+            if not target.is_file():
+                ERRORS.append(f"Missing site target in {path.relative_to(ROOT)}: {url.geturl()}")
+                continue
+            if url.fragment and target.suffix == ".html":
+                target_soup = BeautifulSoup(target.read_text(encoding="utf-8"), "html.parser")
+                if not target_soup.find(id=unquote(url.fragment)):
+                    ERRORS.append(f"Missing anchor in {path.relative_to(ROOT)}: {url.geturl()}")
+
+
+for page in PAGES:
+    for prefix in ("docs", "docs/ja"):
+        path = ROOT / prefix / f"{page}.md"
+        if not path.is_file():
+            ERRORS.append(f"Missing language counterpart: {path}")
+for name in ("README.md", "worksheet.md"):
+    for locale in ("en", "ja"):
+        if not (ROOT / "setup/participant" / locale / name).is_file():
+            ERRORS.append(f"Missing participant counterpart: {locale}/{name}")
+for base in (ROOT / "docs", ROOT / "setup"):
+    for path in base.rglob("*.md"):
+        check_source(path)
+check_source(ROOT / "README.md")
+check_site()
+if ERRORS:
+    print("\n".join(ERRORS), file=sys.stderr)
+    sys.exit(1)
+print("Validated language pairs, CommonMark emphasis, Japanese parentheses, and built article links.")

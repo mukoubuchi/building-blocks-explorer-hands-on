@@ -1,0 +1,33 @@
+name: Translation sync
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        locale: [en, ja]
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Check changed language pairs
+        id: sync
+        env:
+          SOURCE_LOCALE: ${{ matrix.locale }}
+          PR_LABELS: ${{ toJson(github.event.pull_request.labels.*.name) }}
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+          GITHUB_EVENT_BEFORE: ${{ github.event.before }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: bash lib/check_translation_sync.sh
+      - name: Require the matching translation
+        if: steps.sync.outputs.needs_sync == 'true'
+        run: |
+          echo 'Update the matching language files in the same change.'
+          exit 1

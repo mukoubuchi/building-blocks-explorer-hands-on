@@ -1,0 +1,129 @@
+# Site settings
+site_name: Building Blocks Explorer Hands-on
+site_description: A bilingual, one-hour workshop for beginner Build Sales participants
+site_author: IBM Build Team
+site_url: !ENV [SITE_URL, 'http://localhost:8000/']
+docs_dir: docs
+site_dir: site
+exclude_docs: |
+  readme.md
+  translation-sync.md
+
+# Theme settings
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: default
+    primary: blue-grey
+    accent: blue-grey
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  # No web fonts: render with system fonts only, so no Google Fonts
+  # request is made (works identically on offline venue networks)
+  font: false
+
+# Repository info (kept out of the header; the source URL is listed in the home page)
+# repo_name: building-blocks-explorer-hands-on
+# repo_url: https://github.com/mukoubuchi/building-blocks-explorer-hands-on
+
+# Navigation structure
+nav:
+  - Recap: index.md
+  - Install uv: preparation.md
+  - Open Explorer: part1.md
+  - Exercises: part2.md
+  - Optional challenge: part3.md
+  - Summary: summary.md
+  - Feedback: feedback.md
+
+# Markdown extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section for reference
+
+# Plugin settings
+plugins:
+  - search:
+      lang:
+        - en
+        - ja
+  - i18n:
+      docs_structure: folder
+      languages:
+        - locale: en
+          name: English
+          build: true
+          default: true
+          site_name: Building Blocks Explorer Hands-on
+        - locale: ja
+          name: 日本語
+          build: true
+          site_name: Building Blocks Explorer ハンズオン
+          nav_translations:
+            Recap: 振り返り
+            Install uv: uv の導入
+            Open Explorer: Explorer の起動
+            Exercises: 実践課題
+            Optional challenge: 追加課題
+            Summary: まとめ
+            Feedback: フィードバック
+
+# Extra settings
+extra:
+  generator: false
+
+# Custom CSS (modularized)
+extra_css:
+  - stylesheets/extra.css
+
+# Custom JavaScript (modularized)
+extra_javascript:
+  # Vendored Mermaid 10.9.6 (MIT) so the Part 1 diagrams render without
+  # internet access (e.g. on-site venue networks). To update, download
+  # https://cdn.jsdelivr.net/npm/mermaid@<version>/dist/mermaid.min.js
+  # over docs/javascripts/vendor/mermaid.min.js
+  - javascripts/vendor/mermaid.min.js
+  - javascripts/site-config.js
+  - javascripts/search.js
+  - javascripts/navigation.js
+  - javascripts/toc-indicator.js
+  - javascripts/steps.js
+  - javascripts/tasks.js
+  - javascripts/feedback.js
+  - javascripts/syntax-highlight.js
+  - javascripts/language-switcher.js

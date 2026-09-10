@@ -1,0 +1,208 @@
+/* Typography Styles */
+
+/* Heading icons: Font Awesome Free 6.4.0 solid glyphs embedded as SVG
+   masks, so they work offline with no icon font or CDN at runtime.
+   Icons by Font Awesome (https://fontawesome.com), CC BY 4.0. */
+.md-typeset h1::before,
+.md-typeset h2::before,
+.md-typeset h3::before,
+.md-typeset h4::before {
+    content: "";
+    display: inline-block;
+    height: 1em;
+    vertical-align: -0.125em;
+    background-color: var(--md-primary-fg-color);
+    -webkit-mask: var(--heading-icon) no-repeat center / contain;
+    mask: var(--heading-icon) no-repeat center / contain;
+}
+
+/* circle-right */
+.md-typeset h1::before {
+    --heading-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM294.6 135.1l99.9 107.1c3.5 3.8 5.5 8.7 5.5 13.8s-2 10.1-5.5 13.8L294.6 376.9c-4.2 4.5-10.1 7.1-16.3 7.1C266 384 256 374 256 361.7l0-57.7-96 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l96 0 0-57.7c0-12.3 10-22.3 22.3-22.3c6.2 0 12.1 2.6 16.3 7.1z'/%3E%3C/svg%3E");
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+.md-typeset h1 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-weight: 700;
+    color: var(--md-primary-fg-color);
+    border-bottom: solid 2px #546e7a;
+    padding-bottom: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.md-typeset h1:hover {
+    transform: translateX(8px);
+}
+
+/* magnifying-glass-arrow-right */
+.md-typeset h2::before {
+    --heading-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM241 119c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l31 31H120c-13.3 0-24 10.7-24 24s10.7 24 24 24H238.1l-31 31c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l72-72c9.4-9.4 9.4-24.6 0-33.9l-72-72z'/%3E%3C/svg%3E");
+    width: 1em;
+    margin-right: 0.5em;
+}
+
+.md-typeset h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-weight: 700;
+    color: var(--md-primary-fg-color);
+    border-bottom: 1px dotted #78909c;
+    padding-bottom: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.md-typeset h2:hover {
+    transform: translateX(6px);
+}
+
+/* circle-chevron-right */
+.md-typeset h3::before {
+    --heading-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM241 377c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z'/%3E%3C/svg%3E");
+    width: 1em;
+    margin-right: 0.3em;
+}
+
+.md-typeset h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-weight: 700;
+    color: var(--md-primary-fg-color);
+    border-bottom: 1px dotted #b0bec5;
+    padding-bottom: 3px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.md-typeset h3:hover {
+    transform: translateX(4px);
+}
+
+/* caret-right */
+.md-typeset h4::before {
+    --heading-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512'%3E%3Cpath d='M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z'/%3E%3C/svg%3E");
+    width: 0.5em;
+    margin-right: 0.3em;
+}
+
+.md-typeset h4 {
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: var(--md-primary-fg-color);
+    padding: 0.4em 0.6em;
+    border-left: 4px solid var(--md-primary-fg-color);
+    border-radius: 0 4px 4px 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.md-typeset h4:hover {
+    transform: translateX(4px);
+}
+
+/* Paragraph and list spacing */
+.md-typeset p {
+    margin-bottom: 0.8em;
+}
+
+.md-typeset ul,
+.md-typeset ol {
+    margin-bottom: 0.8em;
+}
+
+.md-typeset ul > li,
+.md-typeset ol > li {
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.md-typeset ul > li:hover,
+.md-typeset ol > li:hover {
+    transform: translateX(4px);
+}
+
+/* Remove excessive spacing in lists */
+.md-typeset li > p {
+    margin-bottom: 0.5em;
+}
+
+.md-typeset li > ul,
+.md-typeset li > ol {
+    margin-top: 0.5em;
+}
+
+/* Bold text styling */
+.md-typeset strong {
+    font-weight: 700 !important;
+}
+
+/* Definition list styling */
+.md-typeset dl dt {
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+.md-typeset dl dd {
+    margin-left: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Link colors with slide-in effect */
+.md-typeset a {
+    color: var(--md-typeset-a-color) !important;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.md-typeset a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: currentColor;
+    transition: width 0.3s ease;
+}
+
+/* Links keep their color on hover (the base rule above is !important);
+   the slide-in underline below is the hover feedback */
+.md-typeset a:hover::before {
+    width: 100%;
+}
+
+/* Keyboard key styling */
+.md-typeset kbd {
+    display: inline-block;
+    padding: 0.15em 0.5em;
+    font-size: 0.85em;
+    font-family: var(--md-code-font-family);
+    line-height: 1.4;
+    color: var(--md-code-fg-color);
+    background-color: var(--md-code-bg-color);
+    border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.md-typeset kbd:hover {
+    background-color: color-mix(in srgb, var(--md-code-bg-color) 85%, var(--md-default-fg-color) 15%);
+    border-color: color-mix(in srgb, var(--md-default-fg-color) 28%, transparent);
+}
+
+.md-typeset kbd kbd {
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}

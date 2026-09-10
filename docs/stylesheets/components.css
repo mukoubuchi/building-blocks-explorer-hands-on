@@ -1,0 +1,458 @@
+/* Component Styles */
+
+/* Task list styling */
+.md-typeset .task-list-item {
+    list-style-type: none;
+}
+
+.md-typeset .task-list-control {
+    cursor: pointer;
+}
+
+.md-typeset .task-list-indicator {
+    cursor: pointer;
+}
+
+/* Admonition styling */
+.md-typeset .admonition {
+    margin: 1em 0;
+}
+
+.md-typeset .admonition.info > .admonition-title::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* Details/summary styling */
+.md-typeset details {
+    margin: 1em 0;
+}
+
+/* Tabbed content styling (content tabs only, not the header navigation).
+   The selected tab is shown with a background highlight instead of the
+   sliding underline, which the tab strip's horizontal scrollbar used to
+   overlap as an ugly second line. */
+.md-typeset .tabbed-labels {
+    scrollbar-width: none;
+}
+
+.md-typeset .tabbed-labels::-webkit-scrollbar {
+    display: none;
+}
+
+.js .md-typeset .tabbed-labels::before {
+    display: none;
+}
+
+.md-typeset .tabbed-labels > label {
+    position: relative;
+    border-radius: 6px 6px 0 0;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.md-typeset .tabbed-labels > label:hover {
+    background-color: color-mix(in srgb, var(--md-primary-fg-color) 8%, transparent);
+}
+
+/* Slide-in underline when hovering a tab, like the header navigation.
+   It fills the label's transparent border-bottom zone (the strip's
+   bottom edge), so it sits exactly on the separator line; its color
+   matches the label text (the link color) */
+.md-typeset .tabbed-labels > label::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.1rem;
+    width: 100%;
+    height: 0.1rem;
+    background-color: var(--md-typeset-a-color);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+}
+
+.md-typeset .tabbed-labels > label:hover::after {
+    transform: scaleX(1);
+}
+
+/* The link slide-in underline does not belong inside tab labels: it
+   appeared on hover at the anchor's bottom edge, floating above the
+   strip's separator line */
+.md-typeset .tabbed-labels > label a::before {
+    content: none;
+}
+
+/* Background highlight and a permanent bottom indicator for the selected
+   tab. The indicator colors the label's existing transparent
+   border-bottom, which sits at the strip's bottom edge in front of the
+   separator line (covers up to five tabs per set; this site uses at
+   most three) */
+.md-typeset .tabbed-set > input:nth-child(1):checked ~ .tabbed-labels > :nth-child(1),
+.md-typeset .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2),
+.md-typeset .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > :nth-child(3),
+.md-typeset .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > :nth-child(4),
+.md-typeset .tabbed-set > input:nth-child(5):checked ~ .tabbed-labels > :nth-child(5) {
+    background-color: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
+    border-bottom-color: var(--md-typeset-a-color);
+}
+
+.md-typeset .tabbed-content {
+    padding-top: 1em;
+}
+
+
+/* Search box styling */
+@media screen and (min-width: 60em) {
+    .md-header__inner {
+        display: flex;
+        align-items: center;
+        max-width: 61rem;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+    }
+
+    .md-search {
+        position: absolute;
+        right: 3rem;
+        top: 0;
+        flex-shrink: 0;
+        width: 9rem;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 3;
+    }
+
+    .md-search__overlay {
+        background-color: transparent !important;
+        backdrop-filter: none !important;
+        pointer-events: auto !important;
+    }
+
+    .md-search__inner {
+        background-color: transparent !important;
+    }
+
+    .md-search__form {
+        background-color: color-mix(in srgb, var(--md-primary-bg-color) 12%, transparent);
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        border: 1px solid color-mix(in srgb, var(--md-primary-bg-color) 18%, transparent);
+        backdrop-filter: blur(10px);
+        width: 8rem;
+        max-width: 8rem;
+    }
+
+    .md-search__input {
+        background-color: transparent;
+        color: color-mix(in srgb, var(--md-primary-bg-color) 90%, transparent);
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .md-search__input::placeholder {
+        color: color-mix(in srgb, var(--md-primary-bg-color) 60%, transparent);
+    }
+
+    .md-search__icon {
+        color: color-mix(in srgb, var(--md-primary-bg-color) 70%, transparent);
+    }
+
+    .md-search__form:hover {
+        background-color: color-mix(in srgb, var(--md-primary-bg-color) 20%, transparent);
+        border-color: color-mix(in srgb, var(--md-primary-bg-color) 35%, transparent);
+    }
+
+    .md-search__form:focus-within {
+        background-color: var(--md-default-bg-color);
+        border-color: var(--md-accent-fg-color);
+        width: 11rem;
+        max-width: 11rem;
+    }
+
+    .md-search__form:focus-within .md-search__input {
+        color: var(--md-default-fg-color);
+    }
+
+    .md-search__form:focus-within .md-search__input::placeholder {
+        color: var(--md-default-fg-color--light);
+    }
+
+    .md-search__form:focus-within .md-search__icon {
+        color: var(--md-accent-fg-color);
+    }
+
+    /* Search results popup styling */
+    .md-search__output {
+        background-color: var(--md-default-bg-color) !important;
+        border-radius: 8px !important;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15) !important;
+        border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent) !important;
+        max-height: 75vh !important;
+        overflow-y: auto !important;
+        position: fixed !important;
+        top: 3.5rem !important;
+        right: 1rem !important;
+        left: auto !important;
+        width: 90vw !important;
+        max-width: 700px !important;
+        min-width: 500px !important;
+        margin: 0 !important;
+    }
+
+    .md-search-result {
+        background-color: transparent !important;
+    }
+
+    .md-search-result__meta {
+        background-color: color-mix(in srgb, var(--md-default-fg-color) 6%, var(--md-default-bg-color)) !important;
+        color: var(--md-default-fg-color--light) !important;
+        padding: 0.8rem 1rem !important;
+        font-size: 0.85rem !important;
+        border-bottom: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent) !important;
+    }
+
+    .md-search-result__list {
+        background-color: var(--md-default-bg-color) !important;
+        padding: 0.5rem 0 !important;
+    }
+
+    .md-search-result__item {
+        border-bottom: 1px solid color-mix(in srgb, var(--md-default-fg-color) 8%, transparent) !important;
+        background-color: transparent !important;
+    }
+
+    .md-search-result__item:hover {
+        background-color: color-mix(in srgb, var(--md-default-fg-color) 4%, var(--md-default-bg-color)) !important;
+    }
+
+    .md-search-result__link {
+        padding: 1rem 1.5rem !important;
+        color: var(--md-default-fg-color) !important;
+        display: block !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+        word-break: break-all !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .md-search-result__link:hover {
+        background-color: transparent !important;
+    }
+
+    .md-search-result__title {
+        color: var(--md-typeset-a-color) !important;
+        font-weight: 600 !important;
+        font-size: 1rem !important;
+        line-height: 1.5 !important;
+        margin-bottom: 0.3rem !important;
+        word-wrap: break-word !important;
+        overflow-wrap: anywhere !important;
+        white-space: normal !important;
+        word-break: break-all !important;
+        hyphens: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .md-search-result__teaser {
+        color: var(--md-default-fg-color--light) !important;
+        font-size: 0.9rem !important;
+        line-height: 1.6 !important;
+        margin: 0 !important;
+        word-wrap: break-word !important;
+        overflow-wrap: anywhere !important;
+        white-space: normal !important;
+        display: block !important;
+        word-break: break-all !important;
+        hyphens: auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .md-search-result mark {
+        background-color: color-mix(in srgb, var(--md-accent-fg-color) 18%, var(--md-default-bg-color)) !important;
+        color: var(--md-default-fg-color) !important;
+        padding: 0.1em 0.2em !important;
+        border-radius: 2px !important;
+        font-weight: 600 !important;
+        word-break: break-all !important;
+        overflow-wrap: anywhere !important;
+        white-space: normal !important;
+        display: inline !important;
+    }
+
+    .md-search-result__icon {
+        color: var(--md-typeset-a-color) !important;
+        opacity: 0.7 !important;
+    }
+}
+
+/* Mobile search styling */
+@media screen and (max-width: 59.99em) {
+    .md-search {
+        order: 2;
+        margin-left: auto;
+    }
+
+    .md-search__form {
+        background-color: transparent;
+        border: none;
+    }
+
+    .md-search__icon {
+        color: color-mix(in srgb, var(--md-primary-bg-color) 90%, transparent);
+    }
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+    margin: 1.5em 0;
+    overflow-x: auto;
+}
+
+/* Prevent Mermaid diagrams from being scaled down */
+.mermaid svg {
+    max-width: none !important;
+    height: auto !important;
+}
+
+/* Force all flowchart nodes to have the same size - target all possible selectors */
+.mermaid g.node rect,
+.mermaid g[class*="node"] rect,
+.mermaid .nodes rect {
+    width: 160px !important;
+    height: 60px !important;
+    min-width: 160px !important;
+    min-height: 60px !important;
+    max-width: 160px !important;
+    max-height: 60px !important;
+}
+
+/* Force all text elements to have the same font size */
+.mermaid g.node text,
+.mermaid g[class*="node"] text,
+.mermaid .nodeLabel,
+.mermaid .label text,
+.mermaid foreignObject div {
+    font-size: 14px !important;
+    line-height: 1.2 !important;
+}
+
+/* Force foreignObject (used for HTML labels) to match node size */
+.mermaid g.node foreignObject,
+.mermaid g[class*="node"] foreignObject {
+    width: 160px !important;
+    height: 60px !important;
+}
+
+/* Force the label container inside foreignObject */
+.mermaid foreignObject > div {
+    width: 160px !important;
+    height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* ==========================================================================
+   Numbered step rail (markup built by javascripts/steps.js)
+
+   Runs of "Step N:" headings become a vertical timeline: a continuous line
+   down the left margin with a numbered circle at each step. The number comes
+   from the step's data-step attribute (set from the source heading), so it
+   stays correct even where a run is split or restarts per group.
+   ========================================================================== */
+.md-typeset .steps {
+    --step-size: 2rem;   /* circle diameter */
+    --step-gap: 1rem;    /* gap between circle and content */
+    --step-line: var(--md-default-fg-color--lighter);
+    --step-circle-bg: #eceff1;   /* opaque, so the rail does not show through */
+    --step-circle-fg: #607d8b;
+    margin: 1.5em 0;
+}
+
+/* Nesting is not expected (steps are the smallest unit), but if a step run
+   appears inside a step, shrink the circle as nesting deepens. */
+.md-typeset .step .steps {
+    --step-size: 1.55rem;
+}
+
+.md-typeset .step .step .steps {
+    --step-size: 1.2rem;
+}
+
+.md-typeset .step {
+    position: relative;
+    padding-left: calc(var(--step-size) + var(--step-gap));
+    padding-bottom: 1.5em;
+}
+
+.md-typeset .step:last-child {
+    padding-bottom: 0;
+}
+
+/* Connecting line: spans every step's full height — including the last one,
+   so the rail runs to the end of the final section — forming one continuous
+   line. Each opaque circle is painted on top, leaving a gap at its step. */
+.md-typeset .step::before {
+    content: "";
+    position: absolute;
+    left: calc(var(--step-size) / 2 - 1px);
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--step-line);
+}
+
+/* Strip the per-heading decorations (injected icon, underline, h4 box) from
+   the step's own title only — non-step sub-headings inside a step keep their
+   normal styling. */
+.md-typeset .step > .step__title::before {
+    display: none;
+}
+
+.md-typeset .step > .step__title {
+    position: relative;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    border-radius: 0;
+    transform: none;
+    transition: transform 0.3s ease;
+}
+
+/* Numbered circle, anchored to the title so its centre lines up with the
+   heading, and opaque so the rail is hidden behind it (no line through the
+   circle). */
+.md-typeset .step > .step__title::after {
+    content: attr(data-step);
+    position: absolute;
+    left: calc(-1 * (var(--step-size) + var(--step-gap)));
+    top: 50%;
+    transform: translateY(-50%);
+    width: var(--step-size);
+    height: var(--step-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--step-circle-bg);
+    color: var(--step-circle-fg);
+    font-weight: 700;
+    font-size: calc(var(--step-size) * 0.45);
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+/* Same hover shift as every other heading. The circle counter-shifts by the
+   same amount so it stays put on the rail. */
+.md-typeset .step > .step__title:hover {
+    transform: translateX(4px);
+}
+
+.md-typeset .step > .step__title:hover::after {
+    transform: translateY(-50%) translateX(-4px);
+}
