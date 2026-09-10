@@ -28,3 +28,11 @@
 .md-select__link:hover::before {
     width: 100% !important;
 }
+
+/* Keep the language menu inside narrow viewports near the right edge. */
+@media screen and (max-width: 76.234375em) {
+    .md-header .md-select__inner {
+        left: auto;
+        right: 0;
+    }
+}
