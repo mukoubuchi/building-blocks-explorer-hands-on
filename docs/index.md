@@ -20,15 +20,15 @@ Explore Building Blocks with IBM Bob and prepare a recommendation in 60 minutes.
 
 ## Building Blocks
 
-Building Blocks (BB)provide reusable IBM reference implementations and engineering patterns. Use them to explore a solution; check each README for available assets and prerequisites before implementation.
+Building Blocks (BB) provide reusable IBM reference implementations and engineering patterns. Use them to explore a solution; check the area READMEs for available assets and prerequisites before implementation.
 
-| Area | Groups |
-| --- | --- |
-| AI | Agents, AI Engineering, AI Trust |
-| Data | Context, Pipelines, Query Engines |
-| Automation | Operate, Secure, Optimize |
+| Area | Groups | Area README |
+| --- | --- | --- |
+| AI | Agents, AI Engineering, AI Trust | [AI README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/ai/README.md) |
+| Data | Context, Pipelines, Query Engines | [Data README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/data/README.md) |
+| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/automation/README.md) |
 
-Based on the [reviewed overview](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/README.md)(September 9, 2026).
+Reference: [Building Blocks root README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/README.md)
 
 ## Explorer, modes, and skills
 
@@ -39,7 +39,7 @@ Based on the [reviewed overview](https://github.com/ibm-self-serve-assets/buildi
 | Bob skill | Guidance for a specific task |
 | MCP | Connects Bob to the catalog and local installer |
 
-Explorer can install selected skills and modes with your approval. This workshop uses catalog searches and a local handoff document; product deployment is outside its scope.
+Explorer can install selected skills and modes with your approval. This workshop covers catalog research and discovering, adding, and using a related skill or mode; product deployment is outside its scope.
 
 ## References
 

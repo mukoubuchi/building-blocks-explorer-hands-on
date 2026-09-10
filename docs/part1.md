@@ -32,10 +32,12 @@ Paste into Bob's chat:
 ```text
 Use the Building Blocks catalog tools to show one candidate each for AI, Data, and Automation.
 Briefly give its name, purpose, and source URL.
-Do not install or deploy anything.
+Research only. Installation and deployment are out of scope.
 ```
 
-Confirm a catalog tool result (such as `list_building_blocks`) and open a source link. Record exercise results in the worksheet or `workshop-notes.md`.
+Explorer can also perform installation actions, so limit this connection check to research.
+
+Confirm a catalog tool result (such as `list_building_blocks`) and open a source link.
 
 ??? tip "Troubleshooting"
     | Symptom | Action |
@@ -48,6 +50,6 @@ Confirm a catalog tool result (such as `list_building_blocks`) and open a source
 
     If using READMEs without a working Explorer, record this as a source-reading fallback.
 
-Reference: [official Explorer guide](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs).
+Reference: [official Explorer guide](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs)
 
 [Next →](part2.md){ .workshop-next }

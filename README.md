@@ -1,6 +1,6 @@
 # Building Blocks Explorer Hands-on
 
-A **60-minute hands-on workshop**, available in English and Japanese. Use IBM Bob and the Building Blocks Explorer to turn a fictional business need into a sourced recommendation and an engineering handoff.
+A **60-minute hands-on workshop**, available in English and Japanese. Use IBM Bob and the Building Blocks Explorer to turn a fictional business need into sourced recommendations.
 
 IBM Bob must already be installed and usable. Participants install **uv during the session**; no separate Python, Git, Node.js, Docker, cloud account, or product deployment is required for the core exercises.
 
@@ -11,8 +11,8 @@ IBM Bob must already be installed and usable. Participants install **uv during t
 | 00–10 | Current Building Blocks recap | Explain the roles of Building Blocks, Explorer, Bob modes, and skills |
 | 10–20 | Install uv on macOS or Windows | `uv --version` and `uvx --version` succeed |
 | 20–30 | Open the official Explorer workspace | Query the catalog from Bob |
-| 30–40 | Exercise 1: document-based assistant | Two candidate blocks, evidence, and a short explanation |
-| 40–55 | Exercise 2: secrets-management discovery | A short engineering handoff with open questions |
+| 30–40 | Exercise 1: find all related Building Blocks | Related BBs, source URLs, and search coverage |
+| 40–55 | Exercise 2: discover and use a related skill or mode | Selected asset applied to the document-assistant scenario |
 | 55–60 | Summary | Explain the next validation |
 
 ## Materials
@@ -20,11 +20,10 @@ IBM Bob must already be installed and usable. Participants install **uv during t
 | Audience | English | Japanese |
 | --- | --- | --- |
 | Participants | [Start the workshop](docs/index.md) | [教材を開く](docs/ja/index.md) |
-| Participants | [Worksheet](setup/participant/en/worksheet.md) | [ワークシート](setup/participant/ja/worksheet.md) |
 | Instructors | [Facilitator guide](setup/instructor/facilitator-guide.md) | The English guide supports either delivery language |
 | Maintainers | [Source review](setup/instructor/source-review.md) | [Translation rules](docs/translation-sync.md) |
 
-The official Explorer ZIP is downloaded directly from the upstream repository. Workshop ZIPs contain only the localized worksheet and participant README; they do not redistribute Bob modes or credentials.
+The official Explorer ZIP is downloaded directly from the upstream repository. Workshop ZIPs contain only the participant README and license; they do not redistribute Bob modes or credentials.
 
 ## Repository structure
 
@@ -73,7 +72,7 @@ Open `http://127.0.0.1:8000/` or `http://127.0.0.1:8000/ja/`. The preview binds 
 
 The source repository is **private on github.com**. Private repositories do not automatically create private Pages sites. Pages deployment is disabled until the owner approves its audience and sets the repository variable `PAGES_ENABLED` to `true`; the workflow can then be dispatched. On personal accounts, Pages is public and a plan supporting Pages from private repositories is required. See [GitHub Pages access control](https://docs.github.com/en/enterprise-cloud%40latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site).
 
-Private release assets also require repository access. Instructors distribute the localized worksheet ZIP through an approved channel to participants without repository access. Until Pages is approved, use the local preview or provide a site export through an approved channel. Do not change the repository to public to make Pages work.
+Private release assets also require repository access. Instructors distribute the participant ZIP through an approved channel to participants without repository access. Until Pages is approved, use the local preview or provide a site export through an approved channel. Do not change the repository to public to make Pages work.
 
 ## Maintenance conventions
 

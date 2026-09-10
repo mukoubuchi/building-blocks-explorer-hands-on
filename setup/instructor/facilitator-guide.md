@@ -2,7 +2,7 @@
 
 ## Audience and outcome
 
-This is a 60-minute beginner workshop delivered in English or Japanese. Bob is already installed and usable. The goal is a sourced business recommendation and a small engineering handoff, not a product deployment. Complete two exercises.
+This is a 60-minute beginner workshop delivered in English or Japanese. Bob is already installed and usable. The goal is catalog research followed by discovering and using a related skill or mode, without product deployment. Complete two exercises.
 
 ## Before delivery
 
@@ -25,8 +25,8 @@ This is a 60-minute beginner workshop delivered in English or Japanese. Bob is a
 | 00–10 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
 | 10–20 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 20 pair blocked participants |
 | 20–30 | Open ZIP workspace, select Explorer, check two MCP connections | Confirm an actual catalog tool result |
-| 30–40 | Exercise 1: document assistant | At minute 40 retain two candidates and sources, even if one source is unresolved |
-| 40–55 | Exercise 2: secrets-management handoff | At minute 55 stop at a short document; no deployment |
+| 30–40 | Exercise 1: find all related Building Blocks | At minute 40 record all discovered related BBs, sources, and unchecked areas |
+| 40–55 | Exercise 2: discover and use a related skill or mode | At minute 55 retain evidence of use or record incomplete steps; no deployment |
 | 55–60 | Review completion and save results | Save both exercise results |
 
 ## Exercise 1 coaching
@@ -35,21 +35,19 @@ Use fictional product/policy documents. If participants are stuck, supply these 
 
 Possible candidates are [RAG](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/data/pipelines/rag) and [Agent Builder](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/ai/agents/agent-builder). Accept other choices with a clear rationale. The RAG README describes a custom/reference implementation and distinguishes it from managed OpenRAG. Preserve that distinction in any explanation.
 
-A satisfactory record has two named candidates, source URLs, a verified capability or explicitly unresolved source, and a next validation. Example next question: how will we check that each answer cites an accessible, relevant document? No exact architecture or identical model answer is required.
+A satisfactory Markdown record lists all discovered related BBs, source URLs, verified capabilities or explicitly unresolved sources, and search coverage. Example next question: how will we check that each answer cites an accessible, relevant document? No exact architecture or identical model answer is required.
 
 ## Exercise 2 coaching
 
-Use the [Secrets Management README](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/automation/secure/non-human-identity-and-secret-management/secrets-management) for the Vault-related material, under the broader identity block. The parent README focuses on IBM Security Verify, so do not treat the parent alone as evidence of the Vault workflow.
 
-Keep the setting at discovery. No participant should enter a real secret, run a migration, rotate a key, or deploy a service. They may write the requested local handoff. A valid handoff states the problem and scope, candidate and rationale, evidence, prerequisites, two open questions, and a next test with an observable result.
+Continue the Exercise 1 document-assistant scenario. Search all catalog results without a fixed candidate count and record unchecked areas. Select the most relevant BB, then discover an associated skill or mode; do not add a comparison activity. Let participants discover related skills or modes through the catalog and review purpose, official source, prerequisites, and workspace changes before selecting one. Do not prescribe an asset name. Prefer a candidate usable without additional credentials or services. After installation and Bob reload, explicitly name the skill or select the mode and apply it to the supplied fictional product documents. Check evidence that its procedures informed the answer. Installation alone is not completion. If downloads or prerequisites block use, try another candidate or a working pair and record incomplete steps. Rehearse discovery, installation, and use within the 15-minute budget.
 
-Illustrative questions: who owns the identity, and who owns the secret lifecycle? A next-step proposal can test retrieving a dummy secret in an approved sandbox. It is a future engineering task, not part of the class.
 
 ## Handling upstream inconsistencies
 
 The root overview and the Explorer catalog can change at different times. Keep catalog results and current source evidence distinguishable. Do not patch the official Explorer configuration or invent replacement commands during class. A failed link should lead to source checking, a recorded uncertainty, and a bounded follow-up.
 
-If the installer fails but the catalog works, both required exercises can continue. If the catalog fails, pair participants or use the README fallback. Report how the exercise was completed.
+If the installer fails but the catalog works, Exercise 1 can continue. For Exercise 2, use a working pair and record any incomplete installation or skill-use step. If the catalog fails, pair participants or use the README fallback. Report how the exercise was completed.
 
 ## Completion
 

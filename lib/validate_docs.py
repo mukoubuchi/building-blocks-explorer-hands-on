@@ -89,7 +89,7 @@ for page in PAGES:
         path = ROOT / prefix / f"{page}.md"
         if not path.is_file():
             ERRORS.append(f"Missing language counterpart: {path}")
-for name in ("README.md", "worksheet.md"):
+for name in ("README.md",):
     for locale in ("en", "ja"):
         if not (ROOT / "setup/participant" / locale / name).is_file():
             ERRORS.append(f"Missing participant counterpart: {locale}/{name}")

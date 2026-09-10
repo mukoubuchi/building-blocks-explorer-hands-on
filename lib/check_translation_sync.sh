@@ -169,6 +169,12 @@ while IFS= read -r source_file; do
 
     target_file="$(counterpart_for_file "$source_file")"
 
+    # A paired deletion is synchronized when both paths changed and are absent.
+    if [ ! -f "$source_file" ] && [ ! -f "$target_file" ] \
+        && grep -Fxq "$target_file" "$CHANGED_FILES_FILE"; then
+        continue
+    fi
+
     if [ ! -f "$target_file" ]; then
         needs_sync=true
         missing_files="$(append_missing_file "$missing_files" "$target_file does not exist ($SOURCE_LABEL counterpart: $source_file)")"

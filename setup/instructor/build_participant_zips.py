@@ -5,7 +5,7 @@ import argparse
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[2]
-FILES = ("README.md", "worksheet.md")
+FILES = ("README.md",)
 
 
 def main():

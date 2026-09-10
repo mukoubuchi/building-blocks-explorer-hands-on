@@ -20,15 +20,15 @@ IBM Bob で Building Blocks を探し、提案にまとめる 60 分のハンズ
 
 ## Building Blocks
 
-Building Blocks（BB）は、IBM の参照実装や設計パターンを再利用するための資産です。解決策の検討に使い、実装前に各 README で提供物と前提条件を確認します。
+Building Blocks（BB）は、IBM の参照実装や設計パターンを再利用するための資産です。解決策の検討に使い、各領域の README で提供物と前提条件を確認します。
 
-| 領域 | グループ |
-| --- | --- |
-| AI | Agents, AI Engineering, AI Trust |
-| Data | Context, Pipelines, Query Engines |
-| Automation | Operate, Secure, Optimize |
+| 領域 | グループ | 個別の README |
+| --- | --- | --- |
+| AI | Agents, AI Engineering, AI Trust | [AI README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/ai/README.md) |
+| Data | Context, Pipelines, Query Engines | [Data README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/data/README.md) |
+| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/automation/README.md) |
 
-[確認した概要](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/README.md)（2026 年 9 月 9 日版）に基づきます。
+参考: [Building Blocks 全体の README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/README.md)
 
 ## Explorer・モード・スキル
 
@@ -39,7 +39,7 @@ Building Blocks（BB）は、IBM の参照実装や設計パターンを再利�
 | Bob のスキル | 特定の作業を進めるための手順や知識 |
 | MCP | Bob をカタログやローカルのインストーラーへ接続する仕組み |
 
-Explorer は、承認を受けてスキルやモードを導入することもできます。このハンズオンではカタログの探索とローカルの引き継ぎ文書作成まで行い、製品はデプロイしません。
+Explorer は、承認を受けてスキルやモードを導入することもできます。このハンズオンではカタログの調査と関連するスキルやモードの探索・追加・利用を行い、製品はデプロイしません。
 
 ## 参考文献
 

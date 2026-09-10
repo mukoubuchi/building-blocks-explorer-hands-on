@@ -4,8 +4,8 @@ Time: 5 minutes (55–60)
 
 ## Completion check
 
-- [ ] Two document-assistant candidates with reasons and sources
-- [ ] A secrets-management handoff with two open questions and a next test
+- [ ] Related BBs listed with sources and search coverage
+- [ ] A skill or mode from the most relevant BB selected, added, and used, or an incomplete step recorded
 - [ ] Facts separated from assumptions; unverified points identified
 
-Save your worksheet or `workshop-notes.md` and `use_case_summary.md`. Use the result to plan the next validation; a recommendation alone does not establish production readiness.
+Check that the Markdown file you created contains the results of both exercises. Use the result to plan the next validation; a recommendation alone does not establish production readiness.

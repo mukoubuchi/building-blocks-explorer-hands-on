@@ -32,10 +32,12 @@ Bob のチャットへ貼り付けます。
 ```text
 Building Blocks のカタログツールを使い、AI、Data、Automation から候補を 1 つずつ紹介する。
 各候補には名前、用途、出典 URL を添える。
-インストールやデプロイは行わないこと。
+調査のみ。インストール・デプロイは対象外。
 ```
 
-`list_building_blocks` などのツールの実行結果を確認し、出典リンクを開きます。課題の結果はワークシートか `workshop-notes.md` へ記録します。
+Explorer は導入操作もできるため、接続確認では調査だけを指示します。
+
+`list_building_blocks` などのツールの実行結果を確認し、出典リンクを開きます。
 
 ??? tip "うまく動かない場合"
     | 症状 | 対処 |
@@ -48,6 +50,6 @@ Building Blocks のカタログツールを使い、AI、Data、Automation か�
 
     Explorer を使わず README だけで進めた場合は、資料を読んだ代替演習と記録します。
 
-参考: [公式の Explorer ガイド](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs)。
+参考: [公式の Explorer ガイド](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs)
 
 [次へ →](part2.md){ .workshop-next }
