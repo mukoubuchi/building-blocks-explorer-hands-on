@@ -186,12 +186,6 @@ body[data-md-color-scheme="default"] {
     background-color: color-mix(in srgb, white 14%, transparent);
 }
 
-.md-tabs__link::after {
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-}
-
 /* Keep each tab within the header so its bottom underline is not clipped. */
 .md-tabs__link {
     margin-top: 0 !important;
@@ -224,9 +218,6 @@ body[data-md-color-scheme="default"] {
 }
 .md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-thumb {
     background-color: var(--workshop-accent) !important;
-}
-.md-typeset .tabbed-labels > label::after {
-    background-color: var(--workshop-accent);
 }
 
 /* Unselected OS labels stay gray, including their generated anchors. */
@@ -285,4 +276,29 @@ body[data-md-color-scheme="default"] {
 }
 .md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-track {
     background: transparent !important;
+}
+
+/* A single selection indicator slides on activation, never on hover. */
+.has-selector-indicator { position: relative; }
+.selector-indicator {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 1px;
+    transform-origin: left center;
+    background: var(--workshop-accent);
+    pointer-events: none;
+    z-index: 2;
+}
+.md-tabs__list > .selector-indicator { background: var(--md-primary-bg-color); }
+/* A selection must not change tab widths during the slide. */
+.md-tabs__link { font-weight: 600; }
+.md-tabs__link::after,
+.md-typeset .tabbed-labels > label::after {
+    display: none !important;
+}
+.md-typeset .tabbed-set > input:checked ~ .tabbed-labels.has-selector-indicator > label,
+.md-tabs__link--active {
+    border-bottom-color: transparent !important;
 }

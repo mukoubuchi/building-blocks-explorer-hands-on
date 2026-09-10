@@ -69,6 +69,10 @@ uv pip install --python .venv/Scripts/python.exe -r setup/instructor/requirement
 
 Open `http://127.0.0.1:8000/` or `http://127.0.0.1:8000/ja/`. The preview binds only to the local machine.
 
+Page navigation uses Material's `navigation.instant`. The custom `overrides/partials/tabs.html` keeps the header navigation and its moving underline mounted while the page content changes. Page-specific scripts subscribe to Material's `document$` lifecycle.
+
+The i18n plugin's automatic Material reconfiguration is disabled because its contextual alternate links conflict with instant navigation. Language roots and theme languages are configured explicitly; `language-switcher.js` retains the current page and reloads the localized theme when switching languages. When serving a built site on another port or under a project path, build with `SITE_URL` set to that preview URL so the sitemap matches.
+
 ## Distribution and Pages visibility
 
 The source repository is **private on github.com**. Private repositories do not automatically create private Pages sites. Pages deployment is disabled until the owner approves its audience and sets the repository variable `PAGES_ENABLED` to `true`; the workflow can then be dispatched. On personal accounts, Pages is public and a plan supporting Pages from private repositories is required. See [GitHub Pages access control](https://docs.github.com/en/enterprise-cloud%40latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site).

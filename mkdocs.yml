@@ -12,12 +12,14 @@ exclude_docs: |
 # Theme settings
 theme:
   name: material
+  custom_dir: overrides
   language: en
   palette:
     scheme: default
     primary: custom
     accent: custom
   features:
+    - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
@@ -81,14 +83,20 @@ plugins:
         - ja
   - i18n:
       docs_structure: folder
+      # Use stable language roots with Material instant navigation.
+      reconfigure_material: false
       languages:
         - locale: en
           name: English
+          theme:
+            language: en
           build: true
           default: true
           site_name: Building Blocks Explorer Hands-on
         - locale: ja
           name: 日本語
+          theme:
+            language: ja
           build: true
           site_name: Building Blocks Explorer ハンズオン
           nav_translations:
@@ -101,6 +109,13 @@ plugins:
 # Extra settings
 extra:
   generator: false
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja
 
 # Custom CSS (modularized)
 extra_css:
@@ -116,6 +131,7 @@ extra_javascript:
   - javascripts/site-config.js
   - javascripts/search.js
   - javascripts/navigation.js
+  - javascripts/selector-indicator.js
   - javascripts/toc-indicator.js
   - javascripts/steps.js
   - javascripts/tasks.js

@@ -131,33 +131,6 @@
         color: var(--md-primary-bg-color) !important;
     }
 
-    /* Tab underline using ::after pseudo-element */
-    .md-tabs__link::after {
-        content: '' !important;
-        position: absolute !important;
-        left: 1rem !important;
-        right: 1rem !important;
-        bottom: 0.4rem !important;
-        height: 2px !important;
-        background-color: currentColor !important;
-        transform: scaleX(0) !important;
-        transform-origin: center !important;
-        transition: transform 0.3s ease !important;
-        display: block !important;
-    }
-
-    .md-tabs__link:hover::after {
-        transform: scaleX(1) !important;
-    }
-
-    .md-tabs__item--active .md-tabs__link::after {
-        transform: scaleX(1) !important;
-    }
-
-    .md-tabs .md-tabs__link[aria-current="page"]::after {
-        transform: scaleX(1) !important;
-    }
-
     /* Adjust header to accommodate tabs */
     .md-header {
         height: 2.4rem !important;

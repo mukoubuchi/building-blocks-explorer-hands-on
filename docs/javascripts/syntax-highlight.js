@@ -7,9 +7,7 @@
     'use strict';
 
     function runAfterThemeInit(callback) {
-        document.addEventListener('DOMContentLoaded', function() {
-            setTimeout(callback, 500);
-        });
+        document$.subscribe(callback);
     }
 
     function createHighlightedSpan(className, text) {
