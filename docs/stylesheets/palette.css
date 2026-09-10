@@ -203,3 +203,13 @@ body[data-md-color-scheme="default"] {
     height: 2rem !important;
     align-self: flex-end;
 }
+
+/* Commands and prompts use regular weight, including highlighted tokens. */
+.md-typeset code,
+.md-typeset code *,
+.md-typeset pre code,
+.md-typeset pre code *,
+.md-typeset strong code,
+.md-typeset code strong {
+    font-weight: 400 !important;
+}

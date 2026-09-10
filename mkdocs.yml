@@ -28,8 +28,7 @@ theme:
     - search.highlight
     - content.tabs.link
     - content.code.copy
-  # No web fonts: render with system fonts only, so no Google Fonts
-  # request is made (works identically on offline venue networks)
+  # Load bundled IBM Plex fonts through local CSS; do not request Google Fonts.
   font: false
 
 # Repository info (kept out of the header; the source URL is listed in the home page)
