@@ -93,7 +93,7 @@
 .md-typeset .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > :nth-child(4),
 .md-typeset .tabbed-set > input:nth-child(5):checked ~ .tabbed-labels > :nth-child(5) {
     background-color: color-mix(in srgb, var(--md-primary-fg-color) 14%, transparent);
-    border-bottom-color: var(--md-typeset-a-color);
+    border-bottom-color: var(--md-accent-fg-color);
 }
 
 .md-typeset .tabbed-content {

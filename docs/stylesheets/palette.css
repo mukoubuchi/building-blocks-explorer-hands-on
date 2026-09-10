@@ -213,3 +213,76 @@ body[data-md-color-scheme="default"] {
 .md-typeset code strong {
     font-weight: 400 !important;
 }
+
+/* Keep horizontal content scrollbars thin and consistently blue. */
+.md-typeset :is(pre, pre > code, .highlight) {
+    scrollbar-color: var(--workshop-accent) var(--workshop-surface);
+    scrollbar-width: thin;
+}
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar {
+    height: 4px;
+}
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-thumb {
+    background-color: var(--workshop-accent) !important;
+}
+.md-typeset .tabbed-labels > label::after {
+    background-color: var(--workshop-accent);
+}
+
+/* Unselected OS labels stay gray, including their generated anchors. */
+.md-typeset .tabbed-labels > label,
+.md-typeset .tabbed-set .tabbed-labels > label a {
+    color: var(--workshop-heading) !important;
+}
+.md-typeset .tabbed-set > input:nth-child(1):checked ~ .tabbed-labels > :nth-child(1),
+.md-typeset .tabbed-set > input:nth-child(1):checked ~ .tabbed-labels > :nth-child(1) a {
+    color: var(--workshop-accent) !important;
+}
+.md-typeset .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2),
+.md-typeset .tabbed-set > input:nth-child(2):checked ~ .tabbed-labels > :nth-child(2) a {
+    color: var(--workshop-accent) !important;
+}
+.md-typeset .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > :nth-child(3),
+.md-typeset .tabbed-set > input:nth-child(3):checked ~ .tabbed-labels > :nth-child(3) a {
+    color: var(--workshop-accent) !important;
+}
+.md-typeset .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > :nth-child(4),
+.md-typeset .tabbed-set > input:nth-child(4):checked ~ .tabbed-labels > :nth-child(4) a {
+    color: var(--workshop-accent) !important;
+}
+.md-typeset .tabbed-set > input:nth-child(5):checked ~ .tabbed-labels > :nth-child(5),
+.md-typeset .tabbed-set > input:nth-child(5):checked ~ .tabbed-labels > :nth-child(5) a {
+    color: var(--workshop-accent) !important;
+}
+
+/* Match the TOC indicator's 0.15rem thickness without native faded thumbs. */
+.md-typeset :is(pre, pre > code, .highlight),
+.md-typeset :is(pre, pre > code, .highlight):hover {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+}
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar {
+    height: 0.15rem !important;
+}
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-thumb,
+.md-typeset :is(pre, pre > code, .highlight):hover::-webkit-scrollbar-thumb,
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-thumb:hover,
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-thumb:active {
+    background: var(--workshop-accent) !important;
+    opacity: 1 !important;
+    border: 0 !important;
+    transition: none !important;
+}
+
+/* Show the horizontal thumb only while its content box is hovered. */
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-thumb {
+    background: transparent !important;
+}
+.md-typeset :is(pre, pre > code, .highlight):hover::-webkit-scrollbar-thumb,
+.md-typeset .highlight:hover pre::-webkit-scrollbar-thumb,
+.md-typeset pre:hover > code::-webkit-scrollbar-thumb {
+    background: var(--workshop-accent) !important;
+}
+.md-typeset :is(pre, pre > code, .highlight)::-webkit-scrollbar-track {
+    background: transparent !important;
+}
