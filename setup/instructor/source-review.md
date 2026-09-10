@@ -5,7 +5,7 @@ Reviewed on September 10, 2026. This file separates upstream observations from w
 ## Sources
 
 | Purpose | Source | Review scope |
-|---|---|---|
+| --- | --- | --- |
 | Layout and repository conventions | [vector-search-hands-on at 7776c62](https://github.com/mukoubuchi/vector-search-hands-on/tree/7776c6227da1c006f8107790003855dd5b23fa8f) | MkDocs, modular UI assets, instructor/participant layout, translation checker, CI, release packaging |
 | Current portfolio | [Building Blocks at f721f5e](https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8) | Main-branch head returned by the GitHub API; commit dated September 9, 2026 |
 | Explorer setup | [Explorer README](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs/README.md) and official ZIP at that commit | Download, open workspace, select mode, remote catalog, local uvx helper |
@@ -27,7 +27,7 @@ The official generated `agent` archive at the reviewed commit returned HTTP 200,
 ## Artifact identity
 
 | Official artifact | Bytes | SHA-256 |
-|---|---:|---|
+| --- | ---: | --- |
 | Explorer workspace ZIP | 14615 | `09d5e52deb6fabb6a4a272b81aed3027c7c1cbe77af476be1ab9e182aa518b47` |
 | Generated agent skill ZIP | 633368 | `f9acd2a7491b41773761a3232a5097bcdb5e050cd6811920e77be66e63d10b31` |
 
@@ -41,7 +41,7 @@ The Explorer ZIP contains `README.md`, `.bob/custom_modes.yaml`, and `.bob/mcp.j
 
 ## Design decisions
 
-Teach the current overview first, and tell participants how to handle stale catalog links. The core tasks stop at discovery and an engineering handoff; they do not depend on the two failed download paths. Use the generated agent package only as an optional challenge after checking the live download result. Do not alter upstream modes or silently substitute unsupported commands.
+Teach the current overview first, and tell participants how to handle stale catalog links. The core tasks stop at discovery and an engineering handoff; they do not depend on the two failed download paths. Skill installation is outside the workshop scope. Do not alter upstream modes or silently substitute unsupported commands.
 
 The inherited site structure is retained. Product-specific Milvus services, credentials, and runtime scripts are omitted because this workshop does not run that application. Translation checks fail CI rather than automatically posting issue comments.
 

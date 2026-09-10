@@ -23,12 +23,12 @@ case "$SOURCE_LOCALE" in
     en)
         SOURCE_LABEL="English"
         TARGET_LABEL="Japanese"
-        CHANGED_FILE_PATTERN='^(docs/(index|preparation|part1|part2|part3|summary|feedback)\.md|docs/images/.*-en\.svg|setup/participant/en/.*\.md)$'
+        CHANGED_FILE_PATTERN='^(docs/(index|preparation|part1|part2|summary)\.md|docs/images/.*-en\.svg|setup/participant/en/.*\.md)$'
         ;;
     ja)
         SOURCE_LABEL="Japanese"
         TARGET_LABEL="English"
-        CHANGED_FILE_PATTERN='^(docs/ja/(index|preparation|part1|part2|part3|summary|feedback)\.md|docs/images/.*-ja\.svg|setup/participant/ja/.*\.md)$'
+        CHANGED_FILE_PATTERN='^(docs/ja/(index|preparation|part1|part2|summary)\.md|docs/images/.*-ja\.svg|setup/participant/ja/.*\.md)$'
         ;;
     *)
         echo "Unsupported SOURCE_LOCALE: $SOURCE_LOCALE" >&2

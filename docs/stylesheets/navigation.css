@@ -318,3 +318,30 @@
 .md-top:hover {
     background-color: var(--md-primary-fg-color) !important;
 }
+
+/* Match the former feedback action button; keep page navigation independent. */
+.md-typeset .workshop-next {
+    background: var(--md-primary-fg-color);
+    border: 0;
+    border-radius: 6px;
+    color: var(--md-primary-bg-color) !important;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    transition: none;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.md-typeset .workshop-next:hover,
+.md-typeset .workshop-next:focus {
+    background: var(--md-accent-fg-color);
+    text-decoration: none;
+}
+
+/* Suppress the animated underline applied to ordinary text links. */
+.md-typeset .workshop-next::before {
+    content: none;
+}

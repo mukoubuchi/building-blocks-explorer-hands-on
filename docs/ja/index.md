@@ -1,64 +1,50 @@
-# Building Blocks Explorer ハンズオン
+# BB Recap
 
-顧客課題から根拠のある提案候補までを、**60 分**で体験します。
+IBM Bob で Building Blocks を探し、提案にまとめる 60 分のハンズオンです。プログラミング経験は不要です。
 
-対象は、Building Blocks を初めて使う **Build Sales の方**です。IBM Bob で再利用できる機能を探し、エンジニアやパートナーとの次の会話に使う資料を作ります。プログラミング経験は不要です。
+## 必要なもの
 
-!!! info "参加前の準備"
-    IBM Bob はインストールとサインインを済ませ、利用できる状態にしてください。macOS または Windows の PC、インターネット接続、uv をインストールできる権限を用意します。開始時はブラウザと Bob があればよく、uv の導入時間は 1 時間に含まれます。演習には教材内の架空のシナリオを使います。
+- インストール・サインイン済みで利用できる IBM Bob
+- インターネットに接続した macOS または Windows の PC
+- ハンズオン中に uv をインストールできる権限
 
-## 1 時間の進め方
+## 進め方
 
-| 経過時間 | 内容 | 完了の目安 |
-|---|---|---|
-| 00〜10 分 | このページで recap | Explorer の役割を説明できる |
-| 10〜20 分 | [uv の導入](preparation.md) | uv と uvx のバージョンを確認できる |
-| 20〜30 分 | [Explorer の起動](part1.md) | カタログを使った回答が得られる |
-| 30〜42 分 | [実践課題 1](part2.md#exercise-1) | 候補 2 つと根拠を説明できる |
-| 42〜55 分 | [実践課題 2](part2.md#exercise-2) | エンジニアへの引き継ぎを作れる |
-| 55〜60 分 | [まとめ](summary.md)と[フィードバック](feedback.md) | 30 秒で提案を話せる |
+| 経過時間（分） | 内容 |
+| --- | --- |
+| 00–10 | BB Recap |
+| 10–20 | [uv の導入](preparation.md) |
+| 20–30 | [Explorer の起動](part1.md) |
+| 30–55 | [演習 2 題](part2.md) |
+| 55–60 | [まとめ](summary.md) |
 
-[課題 3](part3.md)は任意です。必須課題を早く終えた方、または終了後に 5〜10 分追加できる方が取り組みます。必須の 2 題を終えれば、このハンズオンの到達目標を満たします。
+## Building Blocks
 
-## Recap：Building Blocks とは
+Building Blocks（BB）は、IBM の参照実装や設計パターンを再利用するための資産です。解決策の検討に使い、実装前に各 README で提供物と前提条件を確認します。
 
-Building Blocks は、IBM の Build Engineering チームが提供する、再利用可能な参照実装や設計・実装パターンです。IBM の機能をどのようにソリューションへ組み込むかを検討する材料になります。内容はブロックごとに異なり、文書、実行できる資産、Bob のスキルやモードなどがあります。何が提供されるかは、候補の README で確認します。
+| 領域 | グループ |
+| --- | --- |
+| AI | Agents, AI Engineering, AI Trust |
+| Data | Context, Pipelines, Query Engines |
+| Automation | Operate, Secure, Optimize |
 
-最新の上流の概要は、次の領域で整理されています。
+[確認した概要](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/README.md)（2026 年 9 月 9 日版）に基づきます。
 
-| 領域 | 上流の概要にある分類 | 営業の場面で聞く課題の例 |
-|---|---|---|
-| AI | Agents、AI Engineering、AI Trust | 「利用者の作業を支援し、結果を評価したい」 |
-| Data | Context、Pipelines、Query Engines | 「文書やデータを活用できる状態にしたい」 |
-| Automation | Operate、Secure、Optimize | 「運用、セキュリティ、コストを改善したい」 |
+## Explorer・モード・スキル
 
-2026 年 9 月 10 日に、[確認対象のコミットの概要](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/README.md)と照合しました。その後の変更は[現在の概要](https://github.com/ibm-self-serve-assets/building-blocks)を参照してください。ブロックの数は変わるため、暗記する必要はありません。
+| 用語 | 役割 |
+| --- | --- |
+| Explorer | Building Blocks の探索と構成の検討を支援する Bob のモード |
+| Bob のモード | 作業に合わせて選ぶ動作の設定 |
+| Bob のスキル | 特定の作業を進めるための手順や知識 |
+| MCP | Bob をカタログやローカルのインストーラーへ接続する仕組み |
 
-!!! note "概要とカタログの差異"
-    確認時点では、Explorer の実際のカタログに古い分類名やパスが一部残っていました。回答のリンクが開けない場合は、現在の概要から該当する README を探します。解消できない差異は確認事項として残します。候補に挙がったことだけでは、資産をインストールできる証拠にはなりません。
+Explorer は、承認を受けてスキルやモードを導入することもできます。このハンズオンではカタログの探索とローカルの引き継ぎ文書作成まで行い、製品はデプロイしません。
 
-## 覚えておく 4 つの用語
+## 参考文献
 
-| 用語 | この教材での意味 |
-|---|---|
-| Building Block | 適用を検討する、再利用可能な機能や実装パターン |
-| Explorer | カタログを検索し、構成の検討を支援する Bob のモード |
-| Bob のモード | Bob で選択する、作業の目的に応じた設定 |
-| Bob のスキル | ワークスペースへ追加できる、特定の作業向けの知識や手順 |
+- Building Blocks: <https://github.com/ibm-self-serve-assets/building-blocks>
+- Building Blocks ドキュメント: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
+- Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs>
 
-**MCP** は、Bob とツールを接続する仕組みです。Explorer は、資料を探すリモートのカタログと、選んだスキルやモードを追加するローカルのインストーラーを使います。**uv** はこのローカルの補助プログラムを動かし、必要な Python も用意できます。この教材のために Python を別途インストールする必要はありません。
-
-出典：[Explorer の公式ガイド](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs/README.md)。
-
-## 営業の会話へのつなげ方
-
-「**顧客課題 → 候補の機能 → 根拠 → 次に検証すること**」の順で説明します。
-
-例えば、「サポート担当者が規程文書から回答を探すのに時間がかかっています。文書検索のパターンと、担当者が使うアシスタントの組み合わせを検討できます。提供される資産を確認し、回答品質とアクセス制御の検証方法をエンジニアと決めます」と説明します。
-
-参照実装があることだけでは、顧客の ROI、本番利用の可否、ライセンスやサポート条件は確定しません。一方で、提案を具体化し、検証すべき点を明らかにする材料として使えます。価値を説明するときは、この両方を伝えます。
-
-- [ ] Building Block、Explorer、モード、スキルの違いを説明できる。
-- [ ] 提案候補に出典と次の確認事項が必要な理由を説明できる。
-
-[次へ：uv の導入 →](preparation.md)
+[次へ →](preparation.md) { .workshop-next }

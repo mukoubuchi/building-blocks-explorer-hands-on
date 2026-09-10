@@ -1,6 +1,6 @@
 # Site settings
 site_name: Building Blocks Explorer Hands-on
-site_description: A bilingual, one-hour workshop for beginner Build Sales participants
+site_description: A bilingual, one-hour Building Blocks Explorer workshop
 site_author: IBM Build Team
 site_url: !ENV [SITE_URL, 'http://localhost:8000/']
 docs_dir: docs
@@ -38,13 +38,11 @@ theme:
 
 # Navigation structure
 nav:
-  - Recap: index.md
+  - BB Recap: index.md
   - Install uv: preparation.md
   - Open Explorer: part1.md
   - Exercises: part2.md
-  - Optional challenge: part3.md
   - Summary: summary.md
-  - Feedback: feedback.md
 
 # Markdown extensions
 markdown_extensions:
@@ -95,13 +93,11 @@ plugins:
           build: true
           site_name: Building Blocks Explorer ハンズオン
           nav_translations:
-            Recap: 振り返り
+            BB Recap: BB Recap
             Install uv: uv の導入
             Open Explorer: Explorer の起動
-            Exercises: 実践課題
-            Optional challenge: 追加課題
+            Exercises: 演習
             Summary: まとめ
-            Feedback: フィードバック
 
 # Extra settings
 extra:
@@ -124,6 +120,5 @@ extra_javascript:
   - javascripts/toc-indicator.js
   - javascripts/steps.js
   - javascripts/tasks.js
-  - javascripts/feedback.js
   - javascripts/syntax-highlight.js
   - javascripts/language-switcher.js

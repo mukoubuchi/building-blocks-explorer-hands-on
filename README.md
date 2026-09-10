@@ -1,26 +1,24 @@
 # Building Blocks Explorer Hands-on
 
-A **60-minute workshop for beginner Build Sales participants**, available in English and Japanese. Use IBM Bob and the Building Blocks Explorer to turn a fictional business need into a sourced recommendation and an engineering handoff.
+A **60-minute hands-on workshop**, available in English and Japanese. Use IBM Bob and the Building Blocks Explorer to turn a fictional business need into a sourced recommendation and an engineering handoff.
 
 IBM Bob must already be installed and usable. Participants install **uv during the session**; no separate Python, Git, Node.js, Docker, cloud account, or product deployment is required for the core exercises.
 
 ## Workshop flow
 
 | Time | Activity | Result |
-|---|---|---|
+| --- | --- | --- |
 | 00–10 | Current Building Blocks recap | Explain the roles of Building Blocks, Explorer, Bob modes, and skills |
 | 10–20 | Install uv on macOS or Windows | `uv --version` and `uvx --version` succeed |
 | 20–30 | Open the official Explorer workspace | Query the catalog from Bob |
-| 30–42 | Exercise 1: document-based assistant | Two candidate blocks, evidence, and a business pitch |
-| 42–55 | Exercise 2: secrets-management discovery | A short engineering handoff with open questions |
-| 55–60 | Review and feedback | Explain the next customer conversation |
-
-A third, optional skill-installation challenge takes 5–10 additional minutes. Keep it outside the core hour unless a participant finishes early; completing the first two exercises is sufficient.
+| 30–40 | Exercise 1: document-based assistant | Two candidate blocks, evidence, and a short explanation |
+| 40–55 | Exercise 2: secrets-management discovery | A short engineering handoff with open questions |
+| 55–60 | Summary | Explain the next validation |
 
 ## Materials
 
 | Audience | English | Japanese |
-|---|---|---|
+| --- | --- | --- |
 | Participants | [Start the workshop](docs/index.md) | [教材を開く](docs/ja/index.md) |
 | Participants | [Worksheet](setup/participant/en/worksheet.md) | [ワークシート](setup/participant/ja/worksheet.md) |
 | Instructors | [Facilitator guide](setup/instructor/facilitator-guide.md) | The English guide supports either delivery language |
@@ -43,7 +41,7 @@ docs/ja/                 # Japanese teaching pages
 mkdocs.yml               # Bilingual navigation and site configuration
 ```
 
-The inherited layout includes language switching, search, linked OS tabs, numbered step rails, code-copy buttons, persistent checklists, and feedback message composition. Existing Milvus runtime services are not part of this Explorer workshop.
+The inherited layout includes language switching, search, linked OS tabs, numbered step rails, code-copy buttons, and persistent checklists. Existing Milvus runtime services are not part of this Explorer workshop.
 
 ## Build and preview
 

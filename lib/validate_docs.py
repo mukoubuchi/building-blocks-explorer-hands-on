@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 from markdown_it import MarkdownIt
 
 ROOT = Path(__file__).resolve().parents[1]
-PAGES = ("index", "preparation", "part1", "part2", "part3", "summary", "feedback")
+PAGES = ("index", "preparation", "part1", "part2", "summary")
 ERRORS = []
 
 
@@ -23,13 +23,27 @@ def check_source(path):
             if child.type == "text" and "**" in child.content:
                 ERRORS.append(f"Unrendered emphasis in {path.relative_to(ROOT)}: {child.content}")
     if "/ja/" in path.as_posix() and path.name != "README.md":
-        # Code and link destinations are excluded from Japanese prose checks.
+        japanese = r"\u3041-\u3096\u30a1-\u30fa\u3400-\u9fff"
         for token in tokens:
             if token.type != "inline":
                 continue
-            for child in token.children or []:
-                if child.type == "text" and re.search(r"[()]", child.content):
-                    ERRORS.append(f"Half-width prose parentheses in {path.relative_to(ROOT)}: {child.content}")
+            # Inline code is opaque, but its boundary still needs prose spacing.
+            prose = "".join(
+                "X" if child.type == "code_inline" else
+                child.content if child.type == "text" else
+                " " if child.type in ("softbreak", "hardbreak") else ""
+                for child in token.children or []
+            )
+            checks = {
+                "Half-width prose parentheses": r"[()]",
+                "Full-width colon": "：",
+                "Missing Japanese/Latin space": rf"[{japanese}][A-Za-z0-9]|[A-Za-z0-9][{japanese}]",
+                "Missing space after colon": rf"(?<=[{japanese}0-9]):(?=\S)",
+                "Missing arrow spacing": r"\S→|→\S",
+            }
+            for label, pattern in checks.items():
+                if re.search(pattern, prose):
+                    ERRORS.append(f"{label} in {path.relative_to(ROOT)}: {prose}")
 
 
 def check_site():
@@ -78,4 +92,4 @@ check_site()
 if ERRORS:
     print("\n".join(ERRORS), file=sys.stderr)
     sys.exit(1)
-print("Validated language pairs, CommonMark emphasis, Japanese parentheses, and built article links.")
+print("Validated language pairs, CommonMark emphasis, Japanese notation, and built article links.")

@@ -6,4 +6,4 @@ CI checks both directions on pull requests and pushes. `lib/check_translation_sy
 
 An intentional one-language correction may use the `translation-sync-skip` PR label and `[skip translation-sync]` in the merge commit. Explain why the counterpart does not need a change. Maintainer-only files `readme.md` and `translation-sync.md` are excluded from publication and do not need translated copies.
 
-Preserve timing, required/optional boundaries, prompts, expected results, troubleshooting, source links, and installation restrictions across languages. Review all of these before release.
+Preserve timing, prompts, expected results, troubleshooting, source links, and installation restrictions across languages. Review all of these before release.

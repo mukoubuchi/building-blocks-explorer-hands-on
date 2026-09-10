@@ -5,7 +5,7 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     const siteConfig = window.BuildingBlocksHandsOn && window.BuildingBlocksHandsOn.site;
-    const navPaths = siteConfig ? siteConfig.navPaths : ['/', '/preparation/', '/part1/', '/part2/', '/part3/', '/summary/', '/feedback/'];
+    const navPaths = siteConfig ? siteConfig.navPaths : ['/', '/preparation/', '/part1/', '/part2/', '/summary/'];
     const languages = siteConfig ? siteConfig.languages : ['en', 'ja'];
 
     // Close search when clicking outside search area
