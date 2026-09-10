@@ -1,6 +1,6 @@
 # BB Recap
 
-Explore Building Blocks with IBM Bob and prepare a recommendation in 60 minutes. No coding experience is required.
+Explore Building Blocks with IBM Bob and prepare a recommendation in 50 minutes. No coding experience is required.
 
 ## Before you start
 
@@ -15,12 +15,14 @@ Explore Building Blocks with IBM Bob and prepare a recommendation in 60 minutes.
 | 00–10 | BB Recap |
 | 10–20 | [Install uv](preparation.md) |
 | 20–30 | [Open Explorer](part1.md) |
-| 30–55 | [Two exercises](part2.md) |
-| 55–60 | [Summary](summary.md) |
+| 30–45 | [Three exercises](part2.md) |
+| 45–50 | [Summary](summary.md) |
 
 ## Building Blocks
 
-Building Blocks (BB) provide reusable IBM reference implementations and engineering patterns. Use them to explore a solution; check the area READMEs for available assets and prerequisites before implementation.
+Building Blocks (BB) provide reusable IBM reference implementations and engineering patterns.
+
+Without BBs, you assemble the design and implementation separately. With BBs, existing architecture examples and code provide a starting point for trying product combinations and adapting them to your needs. This can reduce research and prototyping effort, leaving more time to validate business requirements.
 
 | Area | Groups | Area README |
 | --- | --- | --- |
@@ -30,16 +32,17 @@ Building Blocks (BB) provide reusable IBM reference implementations and engineer
 
 Reference: [Building Blocks root README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/README.md)
 
-## Explorer, modes, and skills
+## Building Blocks Explorer
 
-| Term | Role |
-| --- | --- |
-| Explorer | A Bob mode for finding Building Blocks and planning a solution |
-| Bob mode | The working context selected in Bob |
-| Bob skill | Guidance for a specific task |
-| MCP | Connects Bob to the catalog and local installer |
+Explorer is a Bob mode for finding Building Blocks through natural-language questions. It searches the catalog and related documentation to help explore their uses and solution designs.
 
-Explorer can install selected skills and modes with your approval. This workshop covers catalog research and discovering, adding, and using a related skill or mode; product deployment is outside its scope.
+| Term | Relationship to Explorer | Files under `.bob` |
+| --- | --- | --- |
+| Catalog | The searchable collection of Building Blocks, related documentation, skills, and modes | Hosted externally; its connection is defined in `.bob/mcp.json` |
+| Mode | Settings that adapt Bob to a type of work. Explorer is one such mode | `.bob/custom_modes.yaml` defines names, behavioral instructions, and other settings |
+| Skill | Instructions and knowledge for a specific task. Explorer can find related skills | When installed, instructions reside in `.bob/skills/<skill-name>/SKILL.md`, sometimes alongside supporting files |
+
+The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`. Skill files are added when a skill is installed.
 
 ## References
 

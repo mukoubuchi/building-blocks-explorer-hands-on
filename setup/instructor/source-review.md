@@ -41,7 +41,7 @@ The Explorer ZIP contains `README.md`, `.bob/custom_modes.yaml`, and `.bob/mcp.j
 
 ## Design decisions
 
-Teach the current overview first, and tell participants how to handle stale catalog links. Exercise 1 stops at research. Exercise 2 continues the same scenario by discovering a related skill or mode, reviewing prerequisites and workspace changes, installing a selected asset, and applying it to fictional product questions. No asset is prescribed; catalog availability and prerequisites must be checked at delivery time. Product deployment is excluded. Do not alter upstream modes or silently substitute unsupported commands.
+Teach the current overview first and explain how to handle stale catalog links. The three exercises use short questions without prescribed output formatting or file recording. The exercises are independent questions about data streaming, access/secrets management, and document search, adapted from the official Explorer guide. Bob produces each answer. Installation, configuration changes, and deployment are excluded. Do not alter upstream modes or silently substitute unsupported commands.
 
 The inherited site structure is retained. Product-specific Milvus services, credentials, and runtime scripts are omitted because this workshop does not run that application. Translation checks fail CI rather than automatically posting issue comments.
 
@@ -53,6 +53,6 @@ The inherited site structure is retained. Product-specific Milvus services, cred
 - The 60-minute agenda is a planned facilitation budget, not a measured class duration.
 - The initial release is a draft curriculum. Use the facilitator delivery record to close these gaps before class.
 
-## Exercise 2 validation — September 10, 2026
+## Historical asset validation — September 10, 2026
 
-The official Explorer README confirms workspace-local skill installation followed by a Bob reload. The non-human-identity-vault archive was fetched from the official main-branch skill-archives path with a User-Agent: 37,628 bytes, ZIP CRC validation passed. This is retrieval evidence only; no fixed skill is prescribed in the exercises. Instructors must rehearse selection of the most relevant BB, discovery of its associated skills or modes, installation, and actual use. Archive checks do not prove activation or completion within 15 minutes. A response that merely names an installed asset does not demonstrate use.
+The official Explorer README confirms workspace-local skill installation followed by a Bob reload. The non-human-identity-vault archive was fetched from the official main-branch skill-archives path with a User-Agent: 37,628 bytes, ZIP CRC validation passed. This is retrieval evidence only; no fixed skill is prescribed in the exercises. Instructors must rehearse the revised research-only exercises. Archive checks do not validate the proposed answer behavior or completion within the five-minute exercise budgets.

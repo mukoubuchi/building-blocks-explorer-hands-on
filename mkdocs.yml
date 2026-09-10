@@ -15,8 +15,8 @@ theme:
   language: en
   palette:
     scheme: default
-    primary: blue-grey
-    accent: blue-grey
+    primary: custom
+    accent: custom
   features:
     - navigation.tabs
     - navigation.tabs.sticky

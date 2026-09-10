@@ -446,13 +446,3 @@
     line-height: 1;
     transition: transform 0.3s ease;
 }
-
-/* Same hover shift as every other heading. The circle counter-shifts by the
-   same amount so it stays put on the rail. */
-.md-typeset .step > .step__title:hover {
-    transform: translateX(4px);
-}
-
-.md-typeset .step > .step__title:hover::after {
-    transform: translateY(-50%) translateX(-4px);
-}

@@ -1,6 +1,6 @@
 # BB Recap
 
-IBM Bob で Building Blocks を探し、提案にまとめる 60 分のハンズオンです。プログラミング経験は不要です。
+IBM Bob で Building Blocks を探し、提案にまとめる 50 分のハンズオンです。プログラミング経験は不要です。
 
 ## 必要なもの
 
@@ -15,12 +15,14 @@ IBM Bob で Building Blocks を探し、提案にまとめる 60 分のハンズ
 | 00–10 | BB Recap |
 | 10–20 | [uv の導入](preparation.md) |
 | 20–30 | [Explorer の起動](part1.md) |
-| 30–55 | [演習 2 題](part2.md) |
-| 55–60 | [まとめ](summary.md) |
+| 30–45 | [演習 3 題](part2.md) |
+| 45–50 | [まとめ](summary.md) |
 
 ## Building Blocks
 
-Building Blocks（BB）は、IBM の参照実装や設計パターンを再利用するための資産です。解決策の検討に使い、各領域の README で提供物と前提条件を確認します。
+Building Blocks（BB）は、IBM の参照実装や設計パターンを再利用するための資産です。
+
+BB を使わない場合は、構成の設計や実装を個別に用意します。BB を使うと、既存の構成例やコードを出発点に、製品の組み合わせを試したり、用途に合わせて拡張したりできます。調査や試作の手間を減らし、業務要件の検証に時間を使えます。
 
 | 領域 | グループ | 個別の README |
 | --- | --- | --- |
@@ -30,16 +32,17 @@ Building Blocks（BB）は、IBM の参照実装や設計パターンを再利�
 
 参考: [Building Blocks 全体の README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/README.md)
 
-## Explorer・モード・スキル
+## Building Blocks Explorer
 
-| 用語 | 役割 |
-| --- | --- |
-| Explorer | Building Blocks の探索と構成の検討を支援する Bob のモード |
-| Bob のモード | 作業に合わせて選ぶ動作の設定 |
-| Bob のスキル | 特定の作業を進めるための手順や知識 |
-| MCP | Bob をカタログやローカルのインストーラーへ接続する仕組み |
+Explorer は、Building Blocks を自然言語で探せる Bob のモードです。質問に応じてカタログや関連資料を調べ、用途や構成の検討を支援します。
 
-Explorer は、承認を受けてスキルやモードを導入することもできます。このハンズオンではカタログの調査と関連するスキルやモードの探索・追加・利用を行い、製品はデプロイしません。
+| 用語 | Explorer との関係 | `.bob` 内のファイル |
+| --- | --- | --- |
+| カタログ | Building Blocks と関連資料、スキル、モードの情報をまとめた検索先 | 本体は外部サービス。接続先を `.bob/mcp.json` に定義 |
+| モード | Bob の動作を作業に合わせて切り替える設定。Explorer もその 1 つ | `.bob/custom_modes.yaml` に名前や動作の指示などを定義 |
+| スキル | 特定の作業に使う手順や知識。Explorer で関連するものを探せる | 追加すると `.bob/skills/<スキル名>/SKILL.md` に手順を配置。補助ファイルを含む場合もある |
+
+公式の Explorer ZIP には `.bob/custom_modes.yaml` と `.bob/mcp.json` が含まれます。スキルのファイルはスキルを追加した場合に配置されます。
 
 ## 参考文献
 
