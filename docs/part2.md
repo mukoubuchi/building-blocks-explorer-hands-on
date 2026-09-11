@@ -6,8 +6,6 @@ Paste a question into Explorer and receive an answer.
 
 ## Exercise 1: ask about data streaming {#exercise-1}
 
-5 minutes
-
 Paste and run the following:
 
 ```text
@@ -16,8 +14,6 @@ Are there Building Blocks for real-time data streaming?
 
 ## Exercise 2: ask about access and secrets management {#exercise-2}
 
-5 minutes
-
 Paste and run the following:
 
 ```text
@@ -25,8 +21,6 @@ Are there Building Blocks for access management or secrets management?
 ```
 
 ## Exercise 3: ask about document search {#exercise-3}
-
-5 minutes
 
 Paste and run the following:
 

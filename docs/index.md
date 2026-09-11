@@ -1,6 +1,6 @@
 # BB Recap
 
-Explore Building Blocks with IBM Bob and prepare a recommendation in 50 minutes. No coding experience is required.
+Find the Building Blocks that best match your interests with IBM Bob in this hands-on workshop.
 
 ## Before you start
 
@@ -22,7 +22,7 @@ Explore Building Blocks with IBM Bob and prepare a recommendation in 50 minutes.
 
 Building Blocks (BB) provide reusable IBM reference implementations and engineering patterns.
 
-Without BBs, you assemble the design and implementation separately. With BBs, existing architecture examples and code provide a starting point for trying product combinations and adapting them to your needs. This can reduce research and prototyping effort, leaving more time to validate business requirements.
+Without BBs, you need to prepare the design and implementation separately. With BBs, existing architecture examples and code provide a starting point for trying product combinations and adapting them to your needs. This can reduce research and prototyping effort, leaving more time to validate business requirements.
 
 | Area | Groups | Area README |
 | --- | --- | --- |
