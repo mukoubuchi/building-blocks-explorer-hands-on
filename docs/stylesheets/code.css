@@ -58,12 +58,6 @@
     font-weight: 400 !important;
 }
 
-.md-typeset .language-python.highlight pre,
-.md-typeset .language-python.highlight code {
-    color: var(--md-primary-fg-color) !important;
-    font-weight: 700 !important;
-}
-
 .md-typeset .language-text.highlight pre,
 .md-typeset .language-text.highlight code {
     color: var(--md-code-fg-color) !important;
