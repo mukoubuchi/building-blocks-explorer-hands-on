@@ -1,4 +1,4 @@
-# BB Recap
+# Building Blocks Recap
 
 Find the Building Blocks that best match your interests with IBM Bob in this hands-on workshop.
 
@@ -12,7 +12,7 @@ Find the Building Blocks that best match your interests with IBM Bob in this han
 
 | Minutes | Activity |
 | --- | --- |
-| 00–10 | BB Recap |
+| 00–10 | Building Blocks Recap |
 | 10–20 | [Install uv](preparation.md) |
 | 20–30 | [Open Explorer](part1.md) |
 | 30–45 | [Three exercises](part2.md) |
@@ -20,9 +20,9 @@ Find the Building Blocks that best match your interests with IBM Bob in this han
 
 ## Building Blocks
 
-Building Blocks (BB) provide reusable IBM reference implementations and engineering patterns.
+Building Blocks provide reusable IBM reference implementations and engineering patterns.
 
-Without BBs, you need to prepare the design and implementation separately. With BBs, existing architecture examples and code provide a starting point for trying product combinations and adapting them to your needs. This can reduce research and prototyping effort, leaving more time to validate business requirements.
+Without Building Blocks, you need to prepare the design and implementation separately. With Building Blocks, existing architecture examples and code provide a starting point for trying product combinations and adapting them to your needs. This can reduce research and prototyping effort, leaving more time to validate business requirements.
 
 | Area | Groups | Area README |
 | --- | --- | --- |

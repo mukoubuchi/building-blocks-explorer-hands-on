@@ -39,7 +39,7 @@ theme:
 
 # Navigation structure
 nav:
-  - BB Recap: index.md
+  - Building Blocks Recap: index.md
   - Install uv: preparation.md
   - Open Explorer: part1.md
   - Exercises: part2.md
@@ -96,7 +96,7 @@ plugins:
           build: true
           site_name: Building Blocks Explorer ハンズオン
           nav_translations:
-            BB Recap: BB Recap
+            Building Blocks Recap: Building Blocks Recap
             Install uv: uv の導入
             Open Explorer: Explorer の起動
             Exercises: 演習

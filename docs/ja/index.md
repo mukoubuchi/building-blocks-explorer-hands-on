@@ -1,4 +1,4 @@
-# BB Recap
+# Building Blocks Recap
 
 IBM Bob で関心事に最適な Building Blocks を探すハンズオンです。
 
@@ -12,7 +12,7 @@ IBM Bob で関心事に最適な Building Blocks を探すハンズオンです�
 
 | 経過時間（分） | 内容 |
 | --- | --- |
-| 00–10 | BB Recap |
+| 00–10 | Building Blocks Recap |
 | 10–20 | [uv の導入](preparation.md) |
 | 20–30 | [Explorer の起動](part1.md) |
 | 30–45 | [演習 3 題](part2.md) |
@@ -20,9 +20,9 @@ IBM Bob で関心事に最適な Building Blocks を探すハンズオンです�
 
 ## Building Blocks
 
-Building Blocks（BB）は、IBM の参照実装や設計パターンを再利用するための資産です。
+Building Blocks は、IBM の参照実装や設計パターンを再利用するための資産です。
 
-BB を使わない場合、設計や実装を個別に用意する必要があります。BB を使うと、既存の構成例やコードを出発点に、製品の組み合わせを試したり、用途に合わせて拡張したりできます。調査や試作の手間を減らし、業務要件の検証に時間を使えます。
+Building Blocks を使わない場合、設計や実装を個別に用意する必要があります。Building Blocks を使うと、既存の構成例やコードを出発点に、製品の組み合わせを試したり、用途に合わせて拡張したりできます。調査や試作の手間を減らし、業務要件の検証に時間を使えます。
 
 | 領域 | グループ | 個別の README |
 | --- | --- | --- |
