@@ -11,8 +11,8 @@ Find the Building Blocks that best match your interests with IBM Bob in this han
 ## Agenda
 
 | Minutes | Activity |
-| --- | --- |
-| 00–10 | Introduction |
+| ---: | --- |
+| 0–10 | Introduction |
 | 10–20 | [Install uv](preparation.md) |
 | 20–30 | [Open Explorer](part1.md) |
 | 30–45 | [Three exercises](part2.md) |

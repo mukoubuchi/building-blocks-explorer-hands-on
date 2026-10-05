@@ -20,9 +20,9 @@ This is a 50-minute beginner workshop delivered in English or Japanese. Bob is a
 
 ## Run of show
 
-| Clock | Action | Stop rule |
-| --- | --- | --- |
-| 00–10 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
+| <div align="center">Clock</div> | Action | Stop rule |
+| ---: | --- | --- |
+| 0–10 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
 | 10–20 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 20 pair blocked participants |
 | 20–30 | Open ZIP workspace, select Explorer, check two MCP connections | Confirm an actual catalog tool result |
 | 30–35 | Exercise 1: ask about data streaming | At minute 35 retain the answer and sources |

@@ -26,7 +26,7 @@ The official generated `agent` archive at the reviewed commit returned HTTP 200,
 
 ## Artifact identity
 
-| Official artifact | Bytes | SHA-256 |
+| Official artifact | <div align="center">Bytes</div> | SHA-256 |
 | --- | ---: | --- |
 | Explorer workspace ZIP | 14615 | `09d5e52deb6fabb6a4a272b81aed3027c7c1cbe77af476be1ab9e182aa518b47` |
 | Generated agent skill ZIP | 633368 | `f9acd2a7491b41773761a3232a5097bcdb5e050cd6811920e77be66e63d10b31` |
