@@ -32,7 +32,7 @@ This repository follows [vector-search-hands-on](https://github.com/mukoubuchi/v
 
 ```text
 .github/workflows/       # CI, translation checks, Pages, and releases
-lib/                     # Shared validation helpers
+lib/                     # Validation helpers and the MkDocs sitemap hook
 setup/instructor/        # Facilitation, sources, build and package tools
 setup/participant/en/    # English participant package
 setup/participant/ja/    # Japanese participant package
@@ -71,7 +71,7 @@ Open `http://127.0.0.1:8000/` or `http://127.0.0.1:8000/ja/`. The preview binds 
 
 Page navigation uses Material's `navigation.instant`. The custom `overrides/partials/tabs.html` keeps the header navigation and its moving underline mounted while the page content changes. Page-specific scripts subscribe to Material's `document$` lifecycle.
 
-The i18n plugin's automatic Material reconfiguration is disabled because its contextual alternate links conflict with instant navigation. Language roots and theme languages are configured explicitly; `language-switcher.js` retains the current page and reloads the localized theme when switching languages. When serving a built site on another port or under a project path, build with `SITE_URL` set to that preview URL so the sitemap matches.
+The i18n plugin's automatic Material reconfiguration is disabled because its contextual alternate links conflict with instant navigation. Language roots and theme languages are configured explicitly; `language-switcher.js` retains the current page and reloads the localized theme when switching languages. The language links in the page head are relative, so they resolve under any project path, and `lib/ja_sitemap_hook.py` copies the sitemap into `ja/`, where Material looks for the Japanese one. When serving a built site on another port or under a project path, build with `SITE_URL` set to that preview URL so the sitemap matches.
 
 ## Distribution and Pages visibility
 
