@@ -1,4 +1,4 @@
-# Building Blocks Recap
+# はじめに
 
 IBM Bob で関心事に最適な Building Blocks を探すハンズオンです。
 
@@ -12,7 +12,7 @@ IBM Bob で関心事に最適な Building Blocks を探すハンズオンです�
 
 | 経過時間（分） | 内容 |
 | --- | --- |
-| 00–10 | Building Blocks Recap |
+| 00–10 | はじめに |
 | 10–20 | [uv の導入](preparation.md) |
 | 20–30 | [Explorer の起動](part1.md) |
 | 30–45 | [演習 3 題](part2.md) |

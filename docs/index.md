@@ -1,4 +1,4 @@
-# Building Blocks Recap
+# Introduction
 
 Find the Building Blocks that best match your interests with IBM Bob in this hands-on workshop.
 
@@ -12,7 +12,7 @@ Find the Building Blocks that best match your interests with IBM Bob in this han
 
 | Minutes | Activity |
 | --- | --- |
-| 00–10 | Building Blocks Recap |
+| 00–10 | Introduction |
 | 10–20 | [Install uv](preparation.md) |
 | 20–30 | [Open Explorer](part1.md) |
 | 30–45 | [Three exercises](part2.md) |
