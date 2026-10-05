@@ -94,4 +94,4 @@ Build localized ZIPs with `python setup/instructor/build_participant_zips.py`. P
 
 ## License
 
-[Apache License 2.0](LICENSE). Shared site assets are adapted from `vector-search-hands-on` under the same license. Vendored Mermaid retains its upstream license notice.
+[Apache License 2.0](LICENSE). Shared site assets are adapted from `vector-search-hands-on` under the same license.
