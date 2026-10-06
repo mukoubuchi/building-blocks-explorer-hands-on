@@ -24,7 +24,7 @@ def check_source(path):
         for child in token.children or []:
             if child.type == "text" and "**" in child.content:
                 ERRORS.append(f"Unrendered emphasis in {path.relative_to(ROOT)}: {child.content}")
-    if "/ja/" in path.as_posix() and path.name != "README.md":
+    if "/ja/" in path.as_posix():
         japanese = r"\u3041-\u3096\u30a1-\u30fa\u3400-\u9fff"
         for token in tokens:
             if token.type != "inline":
