@@ -1,5 +1,5 @@
-# Building Blocks Explorer Workshop Kit
+# Building Blocks Explorer ハンズオン キット
 
-Follow the workshop prompts to create and update a Markdown file at the workspace root. Bob must already be installed and usable; uv installation is included for macOS and Windows.
+このキットには、この README とライセンスが入っています。IBM Bob をインストールし、使える状態にしておいてください。uv の macOS と Windows での導入手順は、ハンズオンの手順書にあります。
 
-Download Explorer from the official link in the workshop guide. Use fictional data and save your results locally. Share them through the channel agreed with your instructor.
+Explorer は、手順書にある公式のリンクからダウンロードします。各演習では、質問を Bob のチャットへ貼り付け、回答と出典を確認します。
