@@ -83,6 +83,7 @@ Until Pages is approved, use the local preview or provide a site export through 
 - Update corresponding English and Japanese teaching files in the same change. CI checks changed pairs; it does not certify translation meaning.
 - Use Conventional Commits and explicit paths for staging. Review staged filenames and content before committing.
 - Keep local tool configuration, credentials, conversation logs, and generated files out of Git.
+- Building Blocks workshop ZIPs carry no README; `lib/validate_docs.py` fails when one appears under `setup/participant/`.
 - Review the current upstream sources and run the instructor preflight before each workshop. The recap is checked against upstream commit `f721f5ec1915225ade62d8d0e780fe6b19aa58b8` dated September 9, 2026; catalog results remain dynamic.
 - Use system fonts, existing Material CSS variables, and the inherited modular UI. Keep participant flows free of maintainer setup details.
 - Before a release, run CI, review both languages and OS tabs in a headless browser, and rehearse the actual Bob flow on macOS and Windows. Documentation build success is not a Bob runtime test.

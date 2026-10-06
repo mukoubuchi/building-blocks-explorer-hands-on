@@ -89,6 +89,12 @@ for page in PAGES:
         path = ROOT / prefix / f"{page}.md"
         if not path.is_file():
             ERRORS.append(f"Missing language counterpart: {path}")
+# Building Blocks workshop ZIPs carry no README, and the packages are built from setup/participant.
+participant = ROOT / "setup" / "participant"
+if participant.is_dir():
+    for path in sorted(participant.rglob("*")):
+        if path.is_file() and path.name.lower().startswith("readme"):
+            ERRORS.append(f"README in a participant package: {path.relative_to(ROOT)}")
 for base in (ROOT / "docs", ROOT / "setup"):
     for path in base.rglob("*.md"):
         check_source(path)
@@ -97,4 +103,4 @@ check_site()
 if ERRORS:
     print("\n".join(ERRORS), file=sys.stderr)
     sys.exit(1)
-print("Validated language pairs, CommonMark emphasis, Japanese notation, and built article links.")
+print("Validated language pairs, CommonMark emphasis, Japanese notation, README-free participant packages, and built article links.")
