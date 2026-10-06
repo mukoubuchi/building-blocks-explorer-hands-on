@@ -24,18 +24,16 @@ IBM Bob must already be installed and usable. Participants install **uv during t
 | Instructors | [Facilitator guide](setup/instructor/facilitator-guide.md) | The English guide supports either delivery language |
 | Maintainers | [Source review](setup/instructor/source-review.md) | [Translation rules](docs/translation-sync.md) |
 
-The official Explorer ZIP is downloaded directly from the upstream repository. Workshop ZIPs contain only the participant README and license; they do not redistribute Bob modes or credentials.
+Participants download the official Explorer ZIP directly from the upstream repository. The workshop has no participant package of its own and does not redistribute Bob modes or credentials.
 
 ## Repository structure
 
-This repository follows [vector-search-hands-on](https://github.com/mukoubuchi/vector-search-hands-on): Material for MkDocs, English at `docs/`, Japanese at `docs/ja/`, modular CSS/JavaScript, instructor/participant separation, translation checks, and release ZIP assets.
+This repository follows [vector-search-hands-on](https://github.com/mukoubuchi/vector-search-hands-on): Material for MkDocs, English at `docs/`, Japanese at `docs/ja/`, modular CSS/JavaScript, instructor notes, and translation checks.
 
 ```text
-.github/workflows/       # CI, translation checks, Pages, and releases
+.github/workflows/       # CI, translation checks, and Pages
 lib/                     # Validation helpers and the MkDocs sitemap hook
-setup/instructor/        # Facilitation, sources, build and package tools
-setup/participant/en/    # English participant package
-setup/participant/ja/    # Japanese participant package
+setup/instructor/        # Facilitation, sources, and build requirements
 docs/                    # English teaching pages and shared UI assets
 docs/ja/                 # Japanese teaching pages
 mkdocs.yml               # Bilingual navigation and site configuration
@@ -77,7 +75,7 @@ The i18n plugin's automatic Material reconfiguration is disabled because its con
 
 The source repository is **private on github.com**. Private repositories do not automatically create private Pages sites. Pages deployment is disabled until the owner approves its audience and sets the repository variable `PAGES_ENABLED` to `true`; the workflow can then be dispatched. On personal accounts, Pages is public and a plan supporting Pages from private repositories is required. See [GitHub Pages access control](https://docs.github.com/en/enterprise-cloud%40latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site).
 
-Private release assets also require repository access. Instructors distribute the participant ZIP through an approved channel to participants without repository access. Until Pages is approved, use the local preview or provide a site export through an approved channel. Do not change the repository to public to make Pages work.
+Until Pages is approved, use the local preview or provide a site export through an approved channel. Do not change the repository to public to make Pages work.
 
 ## Maintenance conventions
 
@@ -90,7 +88,7 @@ Private release assets also require repository access. Instructors distribute th
 - Before a release, run CI, review both languages and OS tabs in a headless browser, and rehearse the actual Bob flow on macOS and Windows. Documentation build success is not a Bob runtime test.
 - Consider an annotated semantic-version tag for every pushed change. Reader-visible teaching changes warrant a release; release notes summarize behavior and materials, not a list of commits.
 
-Build localized ZIPs with `python setup/instructor/build_participant_zips.py`. Push an annotated version tag and create its GitHub release with English notes. The published-release event builds and attaches both packages; verify that workflow before distributing the release. Initial version `v0.1.0` is a teaching draft pending a facilitated rehearsal.
+Push an annotated version tag and create its GitHub release with English notes. Initial version `v0.1.0` is a teaching draft pending a facilitated rehearsal.
 
 ## License
 

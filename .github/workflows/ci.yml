@@ -35,5 +35,3 @@ jobs:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
       - name: Validate documentation
         run: python lib/validate_docs.py
-      - name: Build participant packages
-        run: python setup/instructor/build_participant_zips.py

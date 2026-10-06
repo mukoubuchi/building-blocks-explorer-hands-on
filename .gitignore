@@ -10,10 +10,8 @@ Thumbs.db
 .vscode/
 .idea/
 .bob/
-# Generated documentation, packages, and validation output
+# Generated documentation and validation output
 site/
-dist/
 docs/.cache/
 .local/
 changed_files.txt
-building-blocks-explorer-workshop-*.zip

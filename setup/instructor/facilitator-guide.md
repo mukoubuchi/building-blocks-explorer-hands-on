@@ -14,7 +14,7 @@ This is a 50-minute beginner workshop delivered in English or Japanese. Bob is a
 
 1. Confirm attendees can sign in to Bob, download from GitHub/raw.githubusercontent.com, install uv, and reach the Code Engine catalog endpoint. The local helper may need Python/package downloads from the normal uv package sources. Use the organization's approved access process.
 
-1. Build the participant ZIPs and share the appropriate language through an approved channel. Private release URLs require repository access. Provide an accessible workshop URL or a reviewed local/site export; do not assume private repository access for all participants.
+1. Provide an accessible workshop URL or a reviewed local/site export through an approved channel; do not assume private repository access for all participants.
 
 1. Prepare a pairing arrangement and the README entry points in `source-review.md`. If the live catalog is unavailable, a source-reading exercise remains useful but must be recorded as a fallback, not a completed Explorer test.
 
