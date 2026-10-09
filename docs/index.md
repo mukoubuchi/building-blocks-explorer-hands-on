@@ -26,11 +26,11 @@ Without Building Blocks, you need to prepare the design and implementation separ
 
 | Area | Groups | Area README |
 | --- | --- | --- |
-| AI | Agents, AI Engineering, AI Trust | [AI README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/ai/README.md) |
-| Data | Context, Pipelines, Query Engines | [Data README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/data/README.md) |
-| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/automation/README.md) |
+| AI Control Plane | Agents, Control, Engineering | [AI Control Plane README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/ai/README.md) |
+| Streamhouse | Real-Time, Pipelines, Lakehouse | [Streamhouse README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/streamhouse/README.md) |
+| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/automation/README.md) |
 
-Reference: [Building Blocks root README](https://github.com/ibm-self-serve-assets/building-blocks/blob/main/README.md)
+Reference: [Building Blocks root README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/README.md)
 
 ## Building Blocks Explorer
 
