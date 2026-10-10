@@ -2,7 +2,7 @@
 
 ## Audience and outcome
 
-This is a 50-minute beginner workshop delivered in English or Japanese. Bob is already installed and usable. The goal is independent catalog questions and sourced answers, without installation or deployment. Complete three exercises.
+This is a 30-minute beginner workshop delivered in English or Japanese. Bob is already installed and usable. The goal is independent catalog questions and sourced answers, without installation or deployment. Complete three exercises.
 
 ## Before delivery
 
@@ -22,19 +22,17 @@ This is a 50-minute beginner workshop delivered in English or Japanese. Bob is a
 
 | <div align="center">Clock</div> | Action | Stop rule |
 | ---: | --- | --- |
-| 0–10 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
-| 10–20 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 20 pair blocked participants |
-| 20–30 | Open ZIP workspace, select Explorer, check two MCP connections | Confirm an actual catalog tool result |
-| 30–35 | Exercise 1: ask about data streaming | At minute 35 retain the answer and sources |
-| 35–40 | Exercise 2: ask about access and secrets management | At minute 40 retain the answer and sources |
-| 40–45 | Exercise 3: ask about document search | At minute 45 retain the answer and sources |
-| 45–50 | Review completion and save results | Review the three answers |
+| 0–5 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
+| 5–10 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 10 pair blocked participants |
+| 10–15 | Open ZIP workspace, select Explorer, check two MCP connections | Confirm an actual catalog tool result |
+| 15–25 | Exercises 1–3: ask about data streaming, access and secrets management, and document search | At minute 25 retain the answers and sources |
+| 25–30 | Review completion and save results | Review the three answers |
 
 ## Exercise coaching
 
 Each exercise is one independent question. Participants paste the provided prompt; Bob generates the answer. The participant prompts currently contain only the questions; they do not prescribe an output format or Markdown recording. Do not add a fictional scenario, comparison, follow-up sequence, or manual output-writing task. The questions adapt the streaming and access/secrets topics from the official Explorer guide, restricting discovery to Building Blocks. Skills and modes are not exercise activities. No installation, configuration changes, or deployment is performed.
 
-Accept different catalog results when backed by sources. Bob must mark unavailable sources and unverified claims clearly. Rehearse the three questions within their 5-minute budgets.
+Accept different catalog results when backed by sources. Bob must mark unavailable sources and unverified claims clearly. Rehearse the three questions within their shared 10-minute budget.
 
 ## Handling upstream inconsistencies
 

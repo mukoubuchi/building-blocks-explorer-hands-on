@@ -1,6 +1,6 @@
 # Install uv
 
-Time: 10 minutes (10–20)
+Time: 5 minutes (5–10)
 
 Explorer's local installer uses `uvx`, included with [uv](https://docs.astral.sh/uv/). A separate Python installation is not required.
 

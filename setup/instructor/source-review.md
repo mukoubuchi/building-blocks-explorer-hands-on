@@ -52,7 +52,7 @@ The inherited site structure is retained. Product-specific Milvus services, cred
 - Official source retrieval and live catalog tool calls were checked independently.
 - Windows command syntax was reviewed against the official uv guide; it has not been executed on a Windows machine in this preparation.
 - Bob's actual GUI workflow, local helper startup, installation approval, and installed-skill activation have not been rehearsed on macOS or Windows.
-- The 60-minute agenda is a planned facilitation budget, not a measured class duration.
+- The 30-minute agenda is a planned facilitation budget, not a measured class duration.
 - The initial release is a draft curriculum. Use the facilitator delivery record to close these gaps before class.
 
 ## Historical asset validation — September 10, 2026

@@ -12,11 +12,11 @@ Find the Building Blocks that best match your interests with IBM Bob in this han
 
 | Minutes | Activity |
 | ---: | --- |
-| 0–10 | Introduction |
-| 10–20 | [Install uv](preparation.md) |
-| 20–30 | [Open Explorer](part1.md) |
-| 30–45 | [Three exercises](part2.md) |
-| 45–50 | [Summary](summary.md) |
+| 0–5 | Introduction |
+| 5–10 | [Install uv](preparation.md) |
+| 10–15 | [Open Explorer](part1.md) |
+| 15–25 | [Three exercises](part2.md) |
+| 25–30 | [Summary](summary.md) |
 
 ## Building Blocks
 

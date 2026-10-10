@@ -1,6 +1,6 @@
 # Open Explorer
 
-Time: 10 minutes (20–30)
+Time: 5 minutes (10–15)
 
 ## Step 1: Download and extract
 

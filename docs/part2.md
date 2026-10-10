@@ -1,6 +1,6 @@
 # Exercises
 
-Time: 15 minutes (30–45)
+Time: 10 minutes (15–25)
 
 Paste a question into Explorer and receive an answer.
 

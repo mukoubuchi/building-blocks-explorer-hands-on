@@ -12,11 +12,11 @@ IBM Bob で関心事に最適な Building Blocks を探すハンズオンです�
 
 | 経過時間（分） | 内容 |
 | ---: | --- |
-| 0–10 | はじめに |
-| 10–20 | [uv の導入](preparation.md) |
-| 20–30 | [Explorer の起動](part1.md) |
-| 30–45 | [演習 3 題](part2.md) |
-| 45–50 | [まとめ](summary.md) |
+| 0–5 | はじめに |
+| 5–10 | [uv の導入](preparation.md) |
+| 10–15 | [Explorer の起動](part1.md) |
+| 15–25 | [演習 3 題](part2.md) |
+| 25–30 | [まとめ](summary.md) |
 
 ## Building Blocks
 
