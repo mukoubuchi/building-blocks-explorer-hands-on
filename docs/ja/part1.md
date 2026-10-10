@@ -16,11 +16,11 @@
 
 ## ステップ 2: Bob でモードを選ぶ
 
-「Open Folder」で、`README.md` と `.bob` が入った `building-blocks-explorer` を開きます。モードの選択欄で「🧱 IBM Building Blocks Explorer」を選びます。
+「Open Folder」で、`README.md` と `.bob` が入った `building-blocks-explorer` を開きます。Bob はフォルダを制限モードで開きます。帯の「管理」、続いて「信頼する」を選び、信頼の画面を閉じます。モードの選択欄で「🧱 IBM Building Blocks Explorer」を選びます。
 
 ## ステップ 3: 接続を確認する
 
-Bob の MCP パネルで、次のサーバーを確認します。
+Bob の設定（歯車のアイコン）で「MCP」を開き、次のサーバーを確認します。
 
 | サーバー | 役割 |
 | --- | --- |
@@ -34,6 +34,8 @@ Building Blocks のカタログツールを使い、AI、Data、Automation か�
 各候補には名前、用途、出典 URL を添える。
 調査のみ。インストール・デプロイは対象外。
 ```
+
+Bob はカタログのツールを呼ぶたびに承認を求めます（`List Building Blocks (building-blocks)` など）。「一度だけ承認」を選びます。
 
 Explorer は導入操作もできるため、接続確認では調査だけを指示します。
 

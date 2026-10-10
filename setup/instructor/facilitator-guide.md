@@ -24,7 +24,7 @@ This is a 30-minute beginner workshop delivered in English or Japanese. Bob is a
 | ---: | --- | --- |
 | 0–5 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
 | 5–10 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 10 pair blocked participants |
-| 10–15 | Open ZIP workspace, select Explorer, check two MCP connections | Confirm an actual catalog tool result |
+| 10–15 | Open ZIP workspace, trust the folder, select Explorer, check two MCP connections | Confirm an actual catalog tool result |
 | 15–25 | Exercises 1–3: ask about data streaming, access and secrets management, and document search | At minute 25 retain the answers and sources |
 | 25–30 | Review completion and save results | Review the three answers |
 

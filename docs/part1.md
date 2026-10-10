@@ -16,11 +16,11 @@ Download the [official Explorer ZIP](https://raw.githubusercontent.com/ibm-self-
 
 ## Step 2: Select the mode in Bob
 
-Use **Open Folder** to open `building-blocks-explorer`, containing `README.md` and `.bob`. Choose **🧱 IBM Building Blocks Explorer** from the mode picker.
+Use **Open Folder** to open `building-blocks-explorer`, containing `README.md` and `.bob`. Bob opens it in restricted mode: select **Manage** in the banner, then **Trust**, and close the trust editor. Choose **🧱 IBM Building Blocks Explorer** from the mode picker.
 
 ## Step 3: Check the connection
 
-Check these servers in Bob's MCP panel:
+Open Bob's settings (the gear icon), select **MCP**, and check these servers:
 
 | Server | Role |
 | --- | --- |
@@ -34,6 +34,8 @@ Use the Building Blocks catalog tools to show one candidate each for AI, Data, a
 Briefly give its name, purpose, and source URL.
 Research only. Installation and deployment are out of scope.
 ```
+
+Bob asks to approve each catalog tool call, such as `List Building Blocks (building-blocks)`. Select **Approve once**.
 
 Explorer can also perform installation actions, so limit this connection check to research.
 
