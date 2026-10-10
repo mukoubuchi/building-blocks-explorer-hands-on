@@ -32,7 +32,7 @@ This is a 40-minute beginner workshop delivered in English or Japanese. Bob is a
 
 Each exercise is one independent question. Participants paste the provided prompt; Bob generates the answer. The participant prompts currently contain only the questions; they do not prescribe an output format or Markdown recording. Do not add a fictional scenario, comparison, follow-up sequence, or manual output-writing task. The questions adapt the streaming and access/secrets topics from the official Explorer guide, restricting discovery to Building Blocks. Skills and modes are not exercise activities. No installation, configuration changes, or deployment is performed.
 
-Accept different catalog results when backed by sources. Bob must mark unavailable sources and unverified claims clearly. Rehearse the three questions within their shared 15-minute budget.
+Accept different catalog results when backed by sources. Bob does not check the sources it cites: in the run on October 10, 2026, the GitHub links for blocks under `data/` returned 404, because the catalog still returns paths that upstream moved to `streamhouse/`. Have participants open a cited source to check it, and use the documentation link or the Building Blocks overview when a link fails. Rehearse the three questions within their shared 15-minute budget.
 
 ## Handling upstream inconsistencies
 
@@ -42,7 +42,7 @@ If the installer fails but the catalog works, all three exercises can continue. 
 
 ## Completion
 
-Check for understanding rather than identical output: each answer addresses the question, names its sources, and distinguishes documented capabilities from unverified claims.
+Check for understanding rather than identical output: each answer addresses the question and names its sources, and the participant has opened one of them to check it.
 
 ## Delivery record
 
