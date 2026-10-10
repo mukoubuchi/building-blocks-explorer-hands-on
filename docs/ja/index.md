@@ -14,9 +14,9 @@ IBM Bob で関心事に最適な Building Blocks を探すハンズオンです�
 | ---: | --- |
 | 0–5 | はじめに |
 | 5–10 | [uv の導入](preparation.md) |
-| 10–15 | [Explorer の起動](part1.md) |
-| 15–25 | [演習 3 題](part2.md) |
-| 25–30 | [まとめ](summary.md) |
+| 10–20 | [Explorer の起動](part1.md) |
+| 20–35 | [演習 3 題](part2.md) |
+| 35–40 | [まとめ](summary.md) |
 
 ## Building Blocks
 
