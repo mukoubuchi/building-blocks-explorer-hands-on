@@ -28,6 +28,6 @@ Explorer に質問を貼り付け、回答を得ます。
 文書検索や RAG に使える Building Blocks はある？
 ```
 
-参考: [公式の Explorer ガイド](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs)
+参考: [公式の Explorer ガイド](https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs)
 
 [次へ →](summary.md){ .workshop-next }

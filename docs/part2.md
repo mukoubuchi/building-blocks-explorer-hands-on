@@ -28,6 +28,6 @@ Paste and run the following:
 Are there Building Blocks for document search or RAG?
 ```
 
-Reference: [Official Explorer guide](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs)
+Reference: [Official Explorer guide](https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs)
 
 [Next →](summary.md){ .workshop-next }

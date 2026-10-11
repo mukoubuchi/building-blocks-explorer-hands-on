@@ -48,10 +48,10 @@ Explorer は導入操作もできるため、接続確認では調査だけを�
     | インストーラーが使えない | uv/uvx を確認し、Bob を完全に再起動する。カタログが動けば課題は続けられる |
     | 初回起動が遅い | 依存パッケージのダウンロードを待つ |
     | カタログが使えない | Bob を 1 回再起動する。解決しなければ講師へ相談し、ペアで続ける |
-    | 出典リンクが古い | [Building Blocks の概要](https://github.com/ibm-self-serve-assets/building-blocks) から README を探し、参照し直した URL または未確認と記録する |
+    | 出典リンクが古い | [Building Blocks の概要](https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4) から README を探し、参照し直した URL または未確認と記録する |
 
     Explorer を使わず README だけで進めた場合は、資料を読んだ代替演習と記録します。
 
-参考: [公式の Explorer ガイド](https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs)
+参考: [公式の Explorer ガイド](https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs)
 
 [次へ →](part2.md){ .workshop-next }

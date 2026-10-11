@@ -46,8 +46,8 @@ The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`.
 
 ## References
 
-- Building Blocks: <https://github.com/ibm-self-serve-assets/building-blocks>
+- Building Blocks: <https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4>
 - Building Blocks documentation: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
-- Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/main/explore-BBs>
+- Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs>
 
 [Next →](preparation.md){ .workshop-next }
