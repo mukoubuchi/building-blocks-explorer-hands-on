@@ -1,6 +1,23 @@
 # Introduction
 
-Find the Building Blocks that best match your interests with IBM Bob in this hands-on workshop.
+## Overview
+
+- **Objective**: Understand how to find the Building Blocks that match a business need, with their sources, through questions in plain language with IBM Bob and the Building Blocks Explorer mode.
+- **Audience**: Beginners. IBM Bob must be installed, signed in, and usable.
+- **Learning outcomes**:
+    - The structure of the Building Blocks: areas, groups, and their READMEs
+    - The relation of the catalog, modes, and skills to Explorer
+    - How Explorer searches the catalog through MCP and returns candidates with their sources
+- **Exercises**:
+    - Install uv: install uv and uvx, and confirm their versions.
+    - Open Explorer: extract the official Explorer ZIP, select the mode in Bob, and confirm the connection to the catalog.
+    - Exercises: enter three questions (data streaming, access and secrets management, document search) and review the answers.
+- **Time**: 40 minutes
+- **Environment**: Bob and uv run on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
+
+## Scenario
+
+Consider someone planning a solution who wants to know whether IBM already offers reference implementations for a need such as real-time data streaming or secrets management. The Building Blocks span three areas and nine groups, and each area has its own README. In this workshop, they ask IBM Bob with the Building Blocks Explorer mode in plain language, and Explorer searches the catalog and returns candidates with their sources. Starting from these candidates, they can try product combinations from existing examples and code instead of preparing the design and implementation separately.
 
 ## Before you start
 
