@@ -1,17 +1,6 @@
-# Local environments and secrets
-.env
-*.env
+# Local environment
 .venv/
 __pycache__/
-*.py[cod]
-*.log
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
-.bob/
-# Generated documentation and validation output
+# Generated documentation
 site/
-docs/.cache/
-.local/
-changed_files.txt
