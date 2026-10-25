@@ -16,7 +16,7 @@ Explorer's local installer uses `uvx`, included with [uv](https://docs.astral.sh
 
 ## Step 2: Install uv
 
-If `uv --version` and `uvx --version` already work, go to Step 3. Otherwise run the command for your OS in the terminal.
+If `uv --version` and `uvx --version` already work, go to [Step 3](#step-3-check-the-installation). Otherwise run the command for your OS in the terminal.
 
 === "macOS"
 
@@ -36,7 +36,7 @@ Use an organization-approved method if script execution is restricted. See the [
 
 Reopen the terminal and run:
 
-```text
+```bash
 uv --version
 uvx --version
 ```

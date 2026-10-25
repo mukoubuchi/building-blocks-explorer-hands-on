@@ -9,9 +9,9 @@
     - The relation of the catalog, modes, and skills to Explorer
     - How Explorer searches the catalog through MCP and returns candidates with their sources
 - **Exercises**:
-    - Install uv: install uv and uvx, and confirm their versions.
-    - Open Explorer: extract the official Explorer ZIP, select the mode in Bob, and confirm the connection to the catalog.
-    - Exercises: enter three questions (data streaming, access and secrets management, document search) and review the answers.
+    - [Install uv](preparation.md): install uv and uvx, and confirm their versions.
+    - [Open Explorer](part1.md): extract the official Explorer ZIP, select the mode in Bob, and confirm the connection to the catalog.
+    - [Exercises](part2.md): enter three questions (data streaming, access and secrets management, document search) and review the answers.
 - **Time**: 40 minutes
 - **Environment**: Bob and uv run on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
 
@@ -29,7 +29,7 @@ Consider someone planning a solution who wants to know whether IBM already offer
 
 | Minutes | Activity |
 | ---: | --- |
-| 0–5 | Introduction |
+| 0–5 | [Introduction](index.md) |
 | 5–10 | [Install uv](preparation.md) |
 | 10–20 | [Open Explorer](part1.md) |
 | 20–35 | [Three exercises](part2.md) |
@@ -60,6 +60,12 @@ Explorer is a Bob mode for finding Building Blocks through natural-language ques
 | Skill | Instructions and knowledge for a specific task. Explorer can find related skills | When installed, instructions reside in `.bob/skills/<skill-name>/SKILL.md`, sometimes alongside supporting files |
 
 The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`. Skill files are added when a skill is installed.
+
+??? info "Differences from the official Building Block"
+    The Explorer mode and its connection settings come from the official Explorer ZIP (as of September 9, 2026) as they are. This workshop does not hand out a ZIP; participants download the official one. The text you paste into Bob was written for this workshop.
+
+    - **[Connection check](part1.md#step-3-check-the-connection)**: it says "Research only. Installation and deployment are out of scope." because Explorer can also install.
+    - **[The three exercise questions](part2.md)**: short questions based on the three examples in the official Explorer guide (real-time data streaming, access management and secrets, and an in-store assistant that answers from documents).
 
 ## References
 

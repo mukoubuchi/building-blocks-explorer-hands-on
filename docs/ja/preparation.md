@@ -16,7 +16,7 @@ Explorer のローカルインストーラーは、[uv](https://docs.astral.sh/u
 
 ## ステップ 2: uv をインストールする
 
-`uv --version` と `uvx --version` が動く場合は、ステップ 3 へ進みます。それ以外は、OS に合うコマンドをターミナルで実行します。
+`uv --version` と `uvx --version` が動く場合は、[ステップ 3](#3) へ進みます。それ以外は、OS に合うコマンドをターミナルで実行します。
 
 === "macOS"
 
@@ -36,7 +36,7 @@ Explorer のローカルインストーラーは、[uv](https://docs.astral.sh/u
 
 ターミナルを開き直し、実行します。
 
-```text
+```bash
 uv --version
 uvx --version
 ```

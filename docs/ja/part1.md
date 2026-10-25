@@ -32,7 +32,7 @@ Bob のチャットへ貼り付けます。
 ```text
 Building Blocks のカタログツールを使い、AI、Data、Automation から候補を 1 つずつ紹介する。
 各候補には名前、用途、出典 URL を添える。
-調査のみ。インストール・デプロイは対象外。
+調査のみ。インストールとデプロイは対象外。
 ```
 
 Bob はカタログのツールを呼ぶたびに承認を求めます（`List Building Blocks (building-blocks)` など）。「一度だけ承認」を選びます。
