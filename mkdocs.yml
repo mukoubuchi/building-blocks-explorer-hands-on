@@ -1,6 +1,6 @@
 # Site settings
 site_name: Building Blocks Explorer Hands-on
-site_description: A bilingual, 40-minute Building Blocks Explorer workshop
+site_description: A bilingual, 35-minute Building Blocks Explorer workshop
 site_author: IBM Build Team
 site_url: !ENV [SITE_URL, 'http://localhost:8000/']
 docs_dir: docs

@@ -54,7 +54,7 @@ On October 25, 2026, uv left the workshop flow: the exercises use only the hoste
 - Official source retrieval and live catalog tool calls were checked independently.
 - Windows command syntax was reviewed against the official uv guide; it has not been executed on a Windows machine in this preparation.
 - Bob's actual GUI workflow, local helper startup, installation approval, and installed-skill activation have not been rehearsed on macOS or Windows.
-- The 40-minute agenda is a planned facilitation budget, not a measured class duration.
+- The 35-minute agenda is a planned facilitation budget, not a measured class duration.
 - The initial release is a draft curriculum. Use the facilitator delivery record to close these gaps before class.
 
 ## Historical asset validation — September 10, 2026

@@ -2,7 +2,7 @@
 
 ## Audience and outcome
 
-This is a 40-minute beginner workshop delivered in English or Japanese. Bob is already installed and usable. The goal is independent catalog questions and sourced answers, without installation or deployment. Complete three exercises.
+This is a 35-minute beginner workshop delivered in English or Japanese. Bob is already installed and usable. The goal is independent catalog questions and sourced answers, without installation or deployment. Complete three exercises.
 
 ## Before delivery
 
