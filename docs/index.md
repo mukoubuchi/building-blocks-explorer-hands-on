@@ -9,11 +9,10 @@
     - The relation of the catalog, modes, and skills to Explorer
     - How Explorer searches the catalog through MCP and returns candidates with their sources
 - **Exercises**:
-    - [Install uv](preparation.md): install uv and uvx, and confirm their versions.
     - [Open Explorer](part1.md): extract the official Explorer ZIP, select the mode in Bob, and confirm the connection to the catalog.
     - [Exercises](part2.md): enter three questions (data streaming, access and secrets management, document search) and review the answers.
-- **Time**: 40 minutes
-- **Environment**: Bob and uv run on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
+- **Time**: 35 minutes
+- **Environment**: Bob runs on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
 
 ## Scenario
 
@@ -23,17 +22,15 @@ Consider someone planning a solution who wants to know whether IBM already offer
 
 - IBM Bob installed, signed in, and usable
 - A macOS or Windows computer with internet access
-- Permission to install uv during the workshop
 
 ## Agenda
 
 | Minutes | Activity |
 | ---: | --- |
 | 0–5 | [Introduction](index.md) |
-| 5–10 | [Install uv](preparation.md) |
-| 10–20 | [Open Explorer](part1.md) |
-| 20–35 | [Three exercises](part2.md) |
-| 35–40 | [Summary](summary.md) |
+| 5–15 | [Open Explorer](part1.md) |
+| 15–30 | [Three exercises](part2.md) |
+| 30–35 | [Summary](summary.md) |
 
 ## Building Blocks
 
@@ -73,4 +70,4 @@ The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`.
 - Building Blocks documentation: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
 - Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs>
 
-[Next →](preparation.md){ .workshop-next }
+[Next →](part1.md){ .workshop-next }

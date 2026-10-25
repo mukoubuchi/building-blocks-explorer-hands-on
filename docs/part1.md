@@ -1,6 +1,6 @@
 # Open Explorer
 
-Time: 10 minutes (10–20)
+Time: 10 minutes (5–15)
 
 ## Step 1: Download and extract
 
@@ -28,7 +28,7 @@ Open Bob's settings (the gear icon), select **MCP**, and check these servers:
 | `building-blocks-installer` | Runs the local installer through uvx |
 
 !!! warning "Installer bug"
-    `building-blocks-installer` does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), and the MCP screen shows an error. The exercises use only the catalog, so continue.
+    This workshop does not use `building-blocks-installer`. It needs uv and does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so the MCP screen shows an error; continue.
 
 Paste into Bob's chat:
 
@@ -48,8 +48,6 @@ Confirm a catalog tool result (such as `list_building_blocks`) and open a source
     | Symptom | Action |
     | --- | --- |
     | Mode missing | Check the extracted folder contains `.bob`; reload Bob |
-    | Installer unavailable | Check uv/uvx and fully restart Bob; the catalog exercises can continue if the catalog works |
-    | First start is slow | Wait for the initial dependency download |
     | Catalog unavailable | Restart Bob once; if still blocked, ask the instructor and follow the instructor's shared screen |
     | Source link is stale | Find the README from the [Building Blocks overview](https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4) and record the corrected URL or mark it unverified |
 

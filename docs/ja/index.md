@@ -9,11 +9,10 @@
     - カタログ、モード、スキルと Explorer の関係
     - Explorer が MCP を介してカタログを検索し、候補を出典とともに返す仕組み
 - **演習内容**:
-    - [uv の導入](preparation.md): uv と uvx を導入し、版を確認する。
     - [Explorer の起動](part1.md): 公式の Explorer の ZIP を展開し、Bob でモードを選択し、カタログへの接続を確認する。
     - [演習](part2.md): 3 つの問い（データストリーミング、アクセス管理とシークレット管理、文書検索）を入力し、回答を確認する。
-- **所要時間**: 40 分
-- **環境**: Bob と uv は各自の PC で動作し、カタログはインターネット経由で接続する外部のサービスである。クラウドの API キーは使用しない。
+- **所要時間**: 35 分
+- **環境**: Bob は各自の PC で動作し、カタログはインターネット経由で接続する外部のサービスである。クラウドの API キーは使用しない。
 
 ## シナリオ
 
@@ -23,17 +22,15 @@
 
 - インストールとサインインを済ませ、利用できる IBM Bob
 - インターネットに接続した macOS または Windows の PC
-- ハンズオン中に uv をインストールできる権限
 
 ## 進め方
 
 | 経過時間（分） | 内容 |
 | ---: | --- |
 | 0–5 | [はじめに](index.md) |
-| 5–10 | [uv の導入](preparation.md) |
-| 10–20 | [Explorer の起動](part1.md) |
-| 20–35 | [演習 3 題](part2.md) |
-| 35–40 | [まとめ](summary.md) |
+| 5–15 | [Explorer の起動](part1.md) |
+| 15–30 | [演習 3 題](part2.md) |
+| 30–35 | [まとめ](summary.md) |
 
 ## Building Blocks
 
@@ -73,4 +70,4 @@ Explorer は、Building Blocks を自然言語で探せる Bob のモードで�
 - Building Blocks ドキュメント: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
 - Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs>
 
-[次へ →](preparation.md){ .workshop-next }
+[次へ →](part1.md){ .workshop-next }

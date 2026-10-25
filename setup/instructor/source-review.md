@@ -47,6 +47,8 @@ Teach the current overview first and explain how to handle stale catalog links. 
 
 The inherited site structure is retained. Product-specific Milvus services, credentials, and runtime scripts are omitted because this workshop does not run that application. Translation checks fail CI rather than automatically posting issue comments.
 
+On October 25, 2026, uv left the workshop flow: the exercises use only the hosted catalog, and the local installer, the only part that needs uv, fails to start (upstream #262; re-checked that day with the same ImportError). The Install uv page and its header tab stay for a planned revision that checks and uses installed Building Blocks once the bug is fixed.
+
 ## Verification limits
 
 - Official source retrieval and live catalog tool calls were checked independently.

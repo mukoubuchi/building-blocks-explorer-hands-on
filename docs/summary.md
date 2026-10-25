@@ -1,6 +1,6 @@
 # Summary
 
-Time: 5 minutes (35–40)
+Time: 5 minutes (30–35)
 
 ## Completion check
 
