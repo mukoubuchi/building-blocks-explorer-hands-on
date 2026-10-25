@@ -33,7 +33,7 @@ Are there Building Blocks for document search or RAG?
 Use Explorer's local installer to add the Building Blocks you find to this workspace and to draw an architecture diagram. These exercises are not part of the agenda's time. Bob asks for approval for each installer operation; check it and approve.
 
 !!! warning "uv is required"
-    These exercises require [installing uv](preparation.md). The installer does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so they cannot run until it is fixed. They have not been run through with Bob yet.
+    These exercises require [installing uv](preparation.md). The installer does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so they cannot run until it is fixed. With the official setup, they have not been run through with Bob yet.
 
 ### Exercise 4: install a skill {#exercise-4}
 
@@ -53,7 +53,7 @@ Paste and run the following:
 Choose one Bob mode for asking a database in plain language and install it in this workspace.
 ```
 
-Reload Bob and check that the installed mode appears in the mode picker. Then switch back to the Explorer mode.
+Check that the installed mode appears in the mode picker. If it does not, reload Bob. Once you can switch to it, switch back to the Explorer mode.
 
 ### Exercise 6: draw an architecture diagram {#exercise-6}
 
@@ -62,6 +62,8 @@ Paste and run the following:
 ```text
 A retail store wants an assistant that answers questions from its product and policy documents. Choose the Building Blocks to use and draw an architecture diagram.
 ```
+
+If Bob asks a question with choices, pick one.
 
 Check that a diagram image (PNG) appears in the workspace and opens. Drawing the diagram sends its contents to an external service (mermaid.ink).
 

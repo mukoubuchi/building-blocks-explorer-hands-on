@@ -47,13 +47,13 @@ Teach the current overview first and explain how to handle stale catalog links. 
 
 The inherited site structure is retained. Product-specific Milvus services, credentials, and runtime scripts are omitted because this workshop does not run that application. Translation checks fail CI rather than automatically posting issue comments.
 
-On October 25, 2026, uv left the workshop flow: the exercises use only the hosted catalog, and the local installer, the only part that needs uv, fails to start (upstream #262; re-checked that day with the same ImportError). The Install uv page and its header tab stay for a planned revision that checks and uses installed Building Blocks once the bug is fixed. The same day, three additional exercises for the installer (install a skill, install a mode, draw a diagram) were added to the Exercises page, marked as requiring uv and blocked by #262; they have not been run with Bob.
+On October 25, 2026, uv left the workshop flow: the exercises use only the hosted catalog, and the local installer, the only part that needs uv, fails to start (upstream #262; re-checked that day with the same ImportError). The Install uv page and its header tab stay for a planned revision that checks and uses installed Building Blocks once the bug is fixed. The same day, three additional exercises for the installer (install a skill, install a mode, draw a diagram) were added to the Exercises page, marked as requiring uv and blocked by #262; with the official setup they have not been run with Bob. A diagnostic run the same day (IBM Bob 2.2.3, Japanese, a copy of the workspace whose installer arguments add `--with "pydantic<2.14"`) connected the installer and completed all three. The installed mode appeared in the picker without a reload, and Bob asked a question with choices before drawing the diagram, so the pages now say both.
 
 ## Verification limits
 
 - Official source retrieval and live catalog tool calls were checked independently.
 - Windows command syntax was reviewed against the official uv guide; it has not been executed on a Windows machine in this preparation.
-- Bob's actual GUI workflow, local helper startup, installation approval, and installed-skill activation have not been rehearsed on macOS or Windows.
+- Bob's GUI workflow was run through on macOS for exercises 1–3 in both languages (October 10, 2026, IBM Bob 2.2.1) and, with the diagnostic installer copy, for exercises 4–6 in Japanese (October 25, 2026, IBM Bob 2.2.3). Installed-skill activation, the official installer setup, and Windows have not been rehearsed.
 - The 35-minute agenda is a planned facilitation budget, not a measured class duration.
 - The initial release is a draft curriculum. Use the facilitator delivery record to close these gaps before class.
 
