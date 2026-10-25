@@ -1,5 +1,10 @@
 # Building Blocks Explorer Hands-on
 
+[![CI](https://img.shields.io/github/actions/workflow/status/mukoubuchi/building-blocks-explorer-hands-on/ci.yml?branch=main&label=CI)](https://github.com/mukoubuchi/building-blocks-explorer-hands-on/actions/workflows/ci.yml)
+[![Docs](https://img.shields.io/github/actions/workflow/status/mukoubuchi/building-blocks-explorer-hands-on/deploy-docs.yml?branch=main&label=docs)](https://mukoubuchi.github.io/building-blocks-explorer-hands-on/)
+[![Release](https://img.shields.io/github/v/release/mukoubuchi/building-blocks-explorer-hands-on?include_prereleases)](https://github.com/mukoubuchi/building-blocks-explorer-hands-on/releases)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
+
 A **40-minute hands-on workshop**, available in English and Japanese. Use IBM Bob and the Building Blocks Explorer to ask independent catalog questions and receive sourced answers.
 
 IBM Bob must already be installed and usable. Participants install **uv during the session**; no separate Python, Git, Node.js, Docker, cloud account, or product deployment is required for the core exercises.
@@ -71,9 +76,7 @@ The i18n plugin's automatic Material reconfiguration is disabled because its con
 
 ## Distribution and Pages visibility
 
-The source repository is **private on github.com**. Private repositories do not automatically create private Pages sites. Pages deployment is disabled until the owner approves its audience and sets the repository variable `PAGES_ENABLED` to `true`; the workflow can then be dispatched. On personal accounts, Pages is public and a plan supporting Pages from private repositories is required. See [GitHub Pages access control](https://docs.github.com/en/enterprise-cloud%40latest/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site).
-
-Until Pages is approved, use the local preview or provide a site export through an approved channel. Do not change the repository to public to make Pages work.
+The repository is public. The workflow `deploy-docs.yml` publishes the site to GitHub Pages at <https://mukoubuchi.github.io/building-blocks-explorer-hands-on/> (Japanese: <https://mukoubuchi.github.io/building-blocks-explorer-hands-on/ja/>) when the documentation on `main` changes; the repository variable `PAGES_ENABLED` is `true`, and the workflow can also be dispatched. Use the local preview above to check changes before pushing them.
 
 ## Maintenance conventions
 
