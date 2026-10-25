@@ -27,6 +27,9 @@ Open Bob's settings (the gear icon), select **MCP**, and check these servers:
 | `building-blocks` | Searches the remote catalog |
 | `building-blocks-installer` | Runs the local installer through uvx |
 
+!!! warning "Installer bug"
+    `building-blocks-installer` does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), and the MCP screen shows an error. The exercises use only the catalog, so continue.
+
 Paste into Bob's chat:
 
 ```text

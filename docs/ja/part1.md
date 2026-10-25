@@ -27,6 +27,9 @@ Bob の設定（歯車のアイコン）で「MCP」を開き、次のサーバ�
 | `building-blocks` | リモートのカタログを検索する |
 | `building-blocks-installer` | uvx でローカルのインストーラーを動かす |
 
+!!! warning "インストーラーの不具合"
+    `building-blocks-installer` は上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動せず、MCP の画面にエラーが出ます。演習はカタログだけを使うので、そのまま進めます。
+
 Bob のチャットへ貼り付けます。
 
 ```text

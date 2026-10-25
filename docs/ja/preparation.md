@@ -4,6 +4,9 @@
 
 Explorer のローカルインストーラーは、[uv](https://docs.astral.sh/uv/) に含まれる `uvx` を使います。Python の個別インストールは不要です。
 
+!!! note "このハンズオンでは不要"
+    演習では uv を使いません。Explorer で Building Blocks のスキルやモードをインストールするときに必要になります。
+
 ## ステップ 1: ターミナルを開く
 
 === "macOS"

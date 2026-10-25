@@ -4,6 +4,9 @@ Time: 5 minutes (5–10)
 
 Explorer's local installer uses `uvx`, included with [uv](https://docs.astral.sh/uv/). A separate Python installation is not required.
 
+!!! note "Not needed for this workshop"
+    The exercises do not use uv. You need it when Explorer installs Building Blocks skills or modes.
+
 ## Step 1: Open a terminal
 
 === "macOS"
