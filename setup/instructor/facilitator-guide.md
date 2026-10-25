@@ -16,14 +16,14 @@ This is a 40-minute beginner workshop delivered in English or Japanese. Bob is a
 
 1. Provide an accessible workshop URL or a reviewed local/site export through an approved channel; do not assume private repository access for all participants.
 
-1. Prepare a pairing arrangement and the README entry points in `source-review.md`. If the live catalog is unavailable, a source-reading exercise remains useful but must be recorded as a fallback, not a completed Explorer test.
+1. Prepare to share your screen for participants who get blocked, and the README entry points in `source-review.md`. If the live catalog is unavailable, a source-reading exercise remains useful but must be recorded as a fallback, not a completed Explorer test.
 
 ## Run of show
 
 | <div align="center">Clock</div> | Action | Stop rule |
 | ---: | --- | --- |
 | 0–5 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
-| 5–10 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 10 pair blocked participants |
+| 5–10 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 10 blocked participants follow the instructor's shared screen |
 | 10–20 | Open ZIP workspace, trust the folder, select Explorer, check two MCP connections | Confirm an actual catalog tool result |
 | 20–35 | Exercises 1–3: ask about data streaming, access and secrets management, and document search | At minute 35 retain the answers and sources |
 | 35–40 | Review completion and save results | Review the three answers |
@@ -38,7 +38,7 @@ Accept different catalog results when backed by sources. Bob does not check the 
 
 The root overview and the Explorer catalog can change at different times. Keep catalog results and current source evidence distinguishable. Do not patch the official Explorer configuration or invent replacement commands during class. A failed link should lead to source checking, a recorded uncertainty, and a bounded follow-up.
 
-If the installer fails but the catalog works, all three exercises can continue. If the catalog fails, pair participants or use the README fallback. Report how the exercise was completed.
+If the installer fails but the catalog works, all three exercises can continue. If the catalog fails, participants follow the instructor's shared screen or use the README fallback. Report how the exercise was completed.
 
 ## Completion
 
@@ -53,6 +53,6 @@ Fill these fields before presenting this material as rehearsed:
 - Windows / Bob / uv / uvx versions and result:
 - Remote catalog and local installer result:
 - Actual time to finish each required exercise:
-- Known issues and pairing/fallback used:
+- Known issues and fallback used:
 
 The initial v0.1.0 draft has documentation and service-level checks; an interactive Bob rehearsal on both operating systems remains required.

@@ -60,6 +60,6 @@ Both commands should print a version number. Save your work, fully quit Bob, and
         & "$env:USERPROFILE\.local\bin\uvx.exe" --version
         ```
 
-    If these work, follow the installer's PATH instructions. If setup remains blocked, ask the instructor and continue in a working pair.
+    If these work, follow the installer's PATH instructions. If setup remains blocked, ask the instructor; the catalog exercises can continue without uv.
 
 [Next →](part1.md){ .workshop-next }

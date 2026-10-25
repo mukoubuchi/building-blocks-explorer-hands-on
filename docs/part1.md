@@ -47,7 +47,7 @@ Confirm a catalog tool result (such as `list_building_blocks`) and open a source
     | Mode missing | Check the extracted folder contains `.bob`; reload Bob |
     | Installer unavailable | Check uv/uvx and fully restart Bob; the catalog exercises can continue if the catalog works |
     | First start is slow | Wait for the initial dependency download |
-    | Catalog unavailable | Restart Bob once; if still blocked, ask the instructor and work in a pair |
+    | Catalog unavailable | Restart Bob once; if still blocked, ask the instructor and follow the instructor's shared screen |
     | Source link is stale | Find the README from the [Building Blocks overview](https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4) and record the corrected URL or mark it unverified |
 
     If using READMEs without a working Explorer, record this as a source-reading fallback.

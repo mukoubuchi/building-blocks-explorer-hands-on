@@ -60,6 +60,6 @@ uvx --version
         & "$env:USERPROFILE\.local\bin\uvx.exe" --version
         ```
 
-    動く場合は、インストーラーの PATH 設定の案内に従います。解決しない場合は講師へ相談し、動作する環境の方とペアで続けます。
+    動く場合は、インストーラーの PATH 設定の案内に従います。解決しない場合は講師へ相談します。uv が無くても、カタログを使う演習は続けられます。
 
 [次へ →](part1.md){ .workshop-next }
