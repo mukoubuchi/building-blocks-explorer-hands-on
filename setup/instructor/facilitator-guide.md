@@ -37,7 +37,7 @@ Accept different catalog results when backed by sources. Bob does not check the 
 
 The root overview and the Explorer catalog can change at different times. Keep catalog results and current source evidence distinguishable. Do not patch the official Explorer configuration or invent replacement commands during class. A failed link should lead to source checking, a recorded uncertainty, and a bounded follow-up.
 
-The installer is not used in this workshop, and all three exercises run on the catalog alone. If the catalog fails, participants follow the instructor's shared screen or use the README fallback. Report how the exercise was completed.
+Exercises 1–3 do not use the installer and run on the catalog alone. The additional exercises 4–6 (a skill, a mode, and a diagram) need uv and the installer; they are outside the agenda and cannot run until upstream #262 is fixed, and they have not been rehearsed. If the catalog fails, participants follow the instructor's shared screen or use the README fallback. Report how the exercise was completed.
 
 ## Completion
 

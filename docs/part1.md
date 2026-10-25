@@ -28,7 +28,7 @@ Open Bob's settings (the gear icon), select **MCP**, and check these servers:
 | `building-blocks-installer` | Runs the local installer through uvx |
 
 !!! warning "Installer bug"
-    This workshop does not use `building-blocks-installer`. It needs uv and does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so the MCP screen shows an error; continue.
+    [Exercises 1–3](part2.md) do not use `building-blocks-installer`. It needs uv and does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so the MCP screen shows an error; continue.
 
 Paste into Bob's chat:
 

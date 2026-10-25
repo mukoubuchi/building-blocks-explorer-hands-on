@@ -7,7 +7,7 @@
 
 A **35-minute hands-on workshop**, available in English and Japanese. Use IBM Bob and the Building Blocks Explorer to ask independent catalog questions and receive sourced answers.
 
-IBM Bob must already be installed and usable. The exercises use only the hosted catalog, so participants install nothing else: no uv, Python, Git, Node.js, Docker, cloud account, or product deployment. The Install uv page stays in the site for a planned revision that installs Building Blocks once the upstream installer bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)) is fixed.
+IBM Bob must already be installed and usable. The exercises use only the hosted catalog, so participants install nothing else: no uv, Python, Git, Node.js, Docker, cloud account, or product deployment. The Install uv page stays in the site for a planned revision that installs Building Blocks once the upstream installer bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)) is fixed. The Exercises page already carries three additional exercises for the installer (a skill, a mode, and a diagram); they are marked as requiring uv and wait for that fix.
 
 ## Workshop flow
 

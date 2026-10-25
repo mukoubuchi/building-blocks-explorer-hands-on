@@ -28,7 +28,7 @@ Bob の設定（歯車のアイコン）で「MCP」を開き、次のサーバ�
 | `building-blocks-installer` | uvx でローカルのインストーラーを動かす |
 
 !!! warning "インストーラーの不具合"
-    このハンズオンでは `building-blocks-installer` を使いません。uv が必要なうえ、上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動しないため、MCP の画面にエラーが出ますが、そのまま進めます。
+    [課題 1〜3](part2.md) では `building-blocks-installer` を使いません。uv が必要なうえ、上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動しないため、MCP の画面にエラーが出ますが、そのまま進めます。
 
 Bob のチャットへ貼り付けます。
 
