@@ -11,7 +11,7 @@ IBM Bob must already be installed and usable. Participants install **uv during t
 
 ## Workshop flow
 
-<!-- An HTML table, because a pipe table cannot keep the time cells on one line (nowrap). -->
+<!-- An HTML table, because a pipe table cannot keep the time cells on one line (nowrap). The line break keeps the uvx command whole. -->
 <table>
   <thead>
     <tr>
@@ -29,7 +29,7 @@ IBM Bob must already be installed and usable. Participants install **uv during t
     <tr>
       <td align="right" nowrap>5–15</td>
       <td>Install uv on macOS or Windows</td>
-      <td><code>uv --version</code> and <code>uvx --version</code> succeed</td>
+      <td><code>uv --version</code> and<br><code>uvx --version</code> succeed</td>
     </tr>
     <tr>
       <td align="right" nowrap>15–25</td>
