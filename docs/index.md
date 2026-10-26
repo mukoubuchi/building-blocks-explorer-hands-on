@@ -9,10 +9,11 @@
     - The relation of the catalog, modes, and skills to Explorer
     - How Explorer searches the catalog through MCP and returns candidates with their sources
 - **Exercises**:
+    - [Install uv](preparation.md): install uv and uvx, and confirm their versions.
     - [Open Explorer](part1.md): extract the official Explorer ZIP, select the mode in Bob, and confirm the connection to the catalog.
-    - [Exercises](part2.md): enter three questions (data streaming, access and secrets management, document search) and review the answers.
-- **Time**: 35 minutes
-- **Environment**: Bob runs on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
+    - [Exercises](part2.md): enter three questions (data streaming, access and secrets management, document search) and review the answers, then use the local installer to add a skill and a mode to the workspace and draw an architecture diagram.
+- **Time**: 60 minutes
+- **Environment**: Bob and uv run on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
 
 ## Scenario
 
@@ -22,15 +23,17 @@ Consider someone planning a solution who wants to know whether IBM already offer
 
 - IBM Bob installed, signed in, and usable
 - A macOS or Windows computer with internet access
+- Permission to install uv during the workshop
 
 ## Agenda
 
 | Minutes | Activity |
 | ---: | --- |
 | 0–5 | [Introduction](index.md) |
-| 5–15 | [Open Explorer](part1.md) |
-| 15–30 | [Three exercises](part2.md) |
-| 30–35 | [Summary](summary.md) |
+| 5–15 | [Install uv](preparation.md) |
+| 15–25 | [Open Explorer](part1.md) |
+| 25–55 | [Six exercises](part2.md) |
+| 55–60 | [Summary](summary.md) |
 
 ## Building Blocks
 

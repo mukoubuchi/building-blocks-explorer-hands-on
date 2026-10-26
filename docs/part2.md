@@ -1,6 +1,6 @@
 # Exercises
 
-Time: 15 minutes (15–30)
+Time: 30 minutes (25–55)
 
 Paste a question into Explorer and receive an answer.
 
@@ -30,7 +30,7 @@ Are there Building Blocks for document search or RAG?
 
 ## Additional exercises (uv required) {#extra}
 
-Use Explorer's local installer to add the Building Blocks you find to this workspace and to draw an architecture diagram. These exercises are not part of the agenda's time. Bob asks for approval for each installer operation; check it and approve.
+Use Explorer's local installer to add the Building Blocks you find to this workspace and to draw an architecture diagram. Bob asks for approval for each installer operation; check it and approve.
 
 !!! warning "uv is required"
     These exercises require [installing uv](preparation.md). The installer does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so they cannot run until it is fixed.

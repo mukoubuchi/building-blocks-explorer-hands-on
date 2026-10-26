@@ -1,6 +1,6 @@
 # Explorer の起動
 
-所要時間: 10 分（経過時間: 5–15 分）
+所要時間: 10 分（経過時間: 15–25 分）
 
 ## ステップ 1: ダウンロードして展開する
 
@@ -28,7 +28,7 @@ Bob の設定（歯車のアイコン）で「MCP」を開き、次のサーバ�
 | `building-blocks-installer` | uvx でローカルのインストーラーを動かす |
 
 !!! warning "インストーラーの不具合"
-    [課題 1〜3](part2.md) では `building-blocks-installer` を使いません。uv が必要なうえ、上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動しないため、MCP の画面にエラーが出ますが、そのまま進めます。
+    `building-blocks-installer` は上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動せず、MCP の画面にエラーが出ます。[課題 1〜3](part2.md) はカタログだけを使うので、そのまま進めます。[追加の演習](part2.md#extra) にはインストーラーが必要です。
 
 Bob のチャットへ貼り付けます。
 
@@ -48,6 +48,8 @@ Explorer は導入操作もできるため、接続確認では調査だけを�
     | 症状 | 対処 |
     | --- | --- |
     | モードが表示されない | 展開先に `.bob` があることを確認し、Bob を再読み込みする |
+    | インストーラーが使えない | uv/uvx を確認し、Bob を完全に再起動する。カタログが動けば [課題 1〜3](part2.md) は続けられる |
+    | 初回起動が遅い | 依存パッケージのダウンロードを待つ |
     | カタログが使えない | Bob を 1 回再起動する。解決しなければ講師へ相談し、講師の画面共有で続ける |
     | 出典リンクが古い | [Building Blocks の概要](https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4) から README を探し、参照し直した URL または未確認と記録する |
 

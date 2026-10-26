@@ -1,10 +1,10 @@
 # uv の導入
 
-所要時間: 5 分
+所要時間: 10 分（経過時間: 5–15 分）
 
 Explorer のローカルインストーラーは、[uv](https://docs.astral.sh/uv/) に含まれる `uvx` を使います。Python の個別インストールは不要です。
 
-!!! note "このハンズオンでは不要"
+!!! note "uv を使う演習"
     [課題 1〜3](part2.md) では uv を使いません。Explorer で Building Blocks のスキルやモードをインストールする[追加の演習](part2.md#extra)で必要になります。
 
 ## ステップ 1: ターミナルを開く
