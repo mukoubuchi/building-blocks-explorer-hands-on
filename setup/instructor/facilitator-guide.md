@@ -20,13 +20,43 @@ This is a 60-minute beginner workshop delivered in English or Japanese. Bob is a
 
 ## Run of show
 
-| <div align="center">Clock</div> | Action | Stop rule |
-| ---: | --- | --- |
-| 0–5 | Recap AI, Data, Automation; distinguish block, mode, skill, Explorer | Avoid enumerating every block or promising ROI |
-| 5–15 | Install uv in OS tabs; confirm uv and uvx; restart Bob | At minute 15 blocked participants follow the instructor's shared screen |
-| 15–25 | Open ZIP workspace, trust the folder, select Explorer, check two MCP connections | Confirm an actual catalog tool result; at minute 25 blocked participants follow the instructor's shared screen |
-| 25–55 | Exercises 1–6: ask about data streaming, security for a financial services client, and a manufacturing client; install a skill and a mode; draw an architecture diagram | At minute 40 retain the answers and sources and start exercise 4; at minute 55 stop |
-| 55–60 | Review completion and save results | Review the answers, the installed skill and mode, and the diagram |
+<!-- An HTML table, because a pipe table cannot keep the clock cells on one line (nowrap). -->
+<table>
+  <thead>
+    <tr>
+      <th>Clock</th>
+      <th>Action</th>
+      <th>Stop rule</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="right" nowrap>0–5</td>
+      <td>Recap AI, Data, Automation; distinguish block, mode, skill, Explorer</td>
+      <td>Avoid enumerating every block or promising ROI</td>
+    </tr>
+    <tr>
+      <td align="right" nowrap>5–15</td>
+      <td>Install uv in OS tabs; confirm uv and uvx; restart Bob</td>
+      <td>At minute 15 blocked participants follow the instructor's shared screen</td>
+    </tr>
+    <tr>
+      <td align="right" nowrap>15–25</td>
+      <td>Open ZIP workspace, trust the folder, select Explorer, check two MCP connections</td>
+      <td>Confirm an actual catalog tool result; at minute 25 blocked participants follow the instructor's shared screen</td>
+    </tr>
+    <tr>
+      <td align="right" nowrap>25–55</td>
+      <td>Exercises 1–6: ask about data streaming, security for a financial services client, and a manufacturing client; install a skill and a mode; draw an architecture diagram</td>
+      <td>At minute 40 retain the answers and sources and start exercise 4; at minute 55 stop</td>
+    </tr>
+    <tr>
+      <td align="right" nowrap>55–60</td>
+      <td>Review completion and save results</td>
+      <td>Review the answers, the installed skill and mode, and the diagram</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Exercise coaching
 
