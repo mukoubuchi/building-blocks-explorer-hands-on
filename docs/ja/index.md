@@ -2,7 +2,7 @@
 
 ## 概要
 
-- **目的**: IBM Bob と Building Blocks Explorer モードを用い、業務上の関心に合う Building Blocks を、自然言語の問いによって出典とともに探す方法を理解する。
+- **目的**: IBM Bob と Building Blocks Explorer モードを用い、業務上の関心に合う Building Blocks を自然言語で探す方法を理解する。
 - **対象**: 初学者。インストールとサインインを済ませた IBM Bob を利用できることを前提とする。
 - **学習事項**:
     - Building Blocks の構成（領域、グループ、個別の README）

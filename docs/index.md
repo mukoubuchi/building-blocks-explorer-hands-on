@@ -2,7 +2,7 @@
 
 ## Overview
 
-- **Objective**: Understand how to find the Building Blocks that match a business need, with their sources, through questions in plain language with IBM Bob and the Building Blocks Explorer mode.
+- **Objective**: Understand how to find the Building Blocks that match a business need in plain language with IBM Bob and the Building Blocks Explorer mode.
 - **Audience**: Beginners. IBM Bob must be installed, signed in, and usable.
 - **Learning outcomes**:
     - The structure of the Building Blocks: areas, groups, and their READMEs
