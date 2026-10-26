@@ -20,7 +20,7 @@
 
 ## ステップ 3: 接続を確認する
 
-Bob の設定（歯車のアイコン）で「MCP」を開き、次のサーバーを確認します。
+IBM Bob のパネルの右上にある小さな歯車のアイコン（Settings）を選びます。画面の左下にある歯車（管理）とは別のものです。画面の右下の `Bob設定` からも、同じ設定の画面が開きます。開いた設定の画面で、左の一覧の「MCP」を選び、次のサーバーを確認します。
 
 | サーバー | 役割 |
 | --- | --- |
@@ -28,14 +28,14 @@ Bob の設定（歯車のアイコン）で「MCP」を開き、次のサーバ�
 | `building-blocks-installer` | uvx でローカルのインストーラーを動かす |
 
 !!! warning "インストーラーの不具合"
-    `building-blocks-installer` は上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動せず、MCP の画面にエラーが出ます。[課題 1〜3](part2.md) はカタログだけを使うので、そのまま進めます。[追加の演習](part2.md#extra) にはインストーラーが必要です。
+    `building-blocks-installer` は上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動せず、MCP の画面にエラーが出ます。一覧のステータスは「切断済み」と表示されます。[課題 1〜3](part2.md) はカタログだけを使うので、そのまま進めます。[追加の演習](part2.md#extra) にはインストーラーが必要です。
 
 Bob のチャットへ貼り付けます。
 
 ```text
 Building Blocks のカタログツールを使い、AI、Data、Automation から候補を 1 つずつ紹介する。
 各候補には名前、用途、出典 URL を添える。
-調査のみ。インストールとデプロイは対象外。
+調査のみ。インストールは対象外。
 ```
 
 Bob はカタログのツールを呼ぶたびに承認を求めます（`List Building Blocks (building-blocks)` など）。「一度だけ承認」を選びます。

@@ -12,21 +12,25 @@ Paste and run the following:
 Are there Building Blocks for real-time data streaming?
 ```
 
-## Exercise 2: ask about access and secrets management {#exercise-2}
+## Exercise 2: ask about security for a financial services client {#exercise-2}
 
 Paste and run the following:
 
 ```text
-Are there Building Blocks for access management or secrets management?
+Are there Building Blocks to propose to a financial services client with strict security requirements?
 ```
 
-## Exercise 3: ask about document search {#exercise-3}
+If Bob asks a question with choices, pick one. If Bob asks to approve creating a file or installing something, select **Reject**; once Bob has named candidates, move on.
+
+## Exercise 3: ask about a manufacturing client {#exercise-3}
 
 Paste and run the following:
 
 ```text
-Are there Building Blocks for document search or RAG?
+Are there Building Blocks to propose to a manufacturing client?
 ```
+
+If Bob asks a question with choices, pick one. If Bob asks to approve creating a file or installing something, select **Reject**; once Bob has named candidates, move on.
 
 ## Additional exercises (uv required) {#extra}
 

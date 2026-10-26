@@ -11,7 +11,7 @@
 - **Exercises**:
     - [Install uv](preparation.md): install uv and uvx, and confirm their versions.
     - [Open Explorer](part1.md): extract the official Explorer ZIP, select the mode in Bob, and confirm the connection to the catalog.
-    - [Exercises](part2.md): enter three questions (data streaming, access and secrets management, document search) and review the answers, then use the local installer to add a skill and a mode to the workspace and draw an architecture diagram.
+    - [Exercises](part2.md): enter three questions (data streaming, security for a financial services client, a manufacturing client) and review the answers, then use the local installer to add a skill and a mode to the workspace and draw an architecture diagram.
 - **Time**: 60 minutes
 - **Environment**: Bob and uv run on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
 
@@ -64,8 +64,8 @@ The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`.
 ??? info "Differences from the official Building Block"
     The Explorer mode and its connection settings come from the official Explorer ZIP (as of September 9, 2026) as they are. This workshop does not hand out a ZIP; participants download the official one. The text you paste into Bob was written for this workshop.
 
-    - **[Connection check](part1.md#step-3-check-the-connection)**: it says "Research only. Installation and deployment are out of scope." because Explorer can also install.
-    - **[The three exercise questions](part2.md)**: short questions based on the three examples in the official Explorer guide (real-time data streaming, access management and secrets, and an in-store assistant that answers from documents).
+    - **[Connection check](part1.md#step-3-check-the-connection)**: it says "Research only. Installation is out of scope." because Explorer can also install.
+    - **[The three exercise questions](part2.md)**: exercise 1 is a short question based on an example in the official Explorer guide (real-time data streaming); exercises 2 and 3 ask about a client's industry (financial services with strict security requirements, and manufacturing).
 
 ## References
 

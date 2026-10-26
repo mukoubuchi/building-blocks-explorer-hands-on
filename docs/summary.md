@@ -5,8 +5,8 @@ Time: 5 minutes (55–60)
 ## Completion check
 
 - [ ] Received an answer about data streaming
-- [ ] Received an answer about access and secrets management
-- [ ] Received an answer about document search or RAG
+- [ ] Received an answer about security for a financial services client
+- [ ] Received an answer about a manufacturing client
 
 ### Additional exercises (uv required) {#extra}
 

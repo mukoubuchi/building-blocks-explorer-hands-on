@@ -20,7 +20,7 @@ Use **Open Folder** to open `building-blocks-explorer`, containing `README.md` a
 
 ## Step 3: Check the connection
 
-Open Bob's settings (the gear icon), select **MCP**, and check these servers:
+Select the small gear icon (Settings) at the top right of the IBM Bob panel. It is not the gear at the bottom left of the window (Manage). **Bob Settings** at the bottom right of the window opens the same settings. In the settings that open, select **MCP** in the list on the left, and check these servers:
 
 | Server | Role |
 | --- | --- |
@@ -28,14 +28,14 @@ Open Bob's settings (the gear icon), select **MCP**, and check these servers:
 | `building-blocks-installer` | Runs the local installer through uvx |
 
 !!! warning "Installer bug"
-    `building-blocks-installer` does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), and the MCP screen shows an error. [Exercises 1–3](part2.md) use only the catalog, so continue. The [additional exercises](part2.md#extra) need the installer.
+    `building-blocks-installer` does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), and the MCP screen shows an error. Its status in the list is **Disconnected**. [Exercises 1–3](part2.md) use only the catalog, so continue. The [additional exercises](part2.md#extra) need the installer.
 
 Paste into Bob's chat:
 
 ```text
 Use the Building Blocks catalog tools to show one candidate each for AI, Data, and Automation.
 Briefly give its name, purpose, and source URL.
-Research only. Installation and deployment are out of scope.
+Research only. Installation is out of scope.
 ```
 
 Bob asks to approve each catalog tool call, such as `List Building Blocks (building-blocks)`. Select **Approve once**.
