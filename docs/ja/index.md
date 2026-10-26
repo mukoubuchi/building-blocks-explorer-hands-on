@@ -70,4 +70,4 @@ Explorer は、Building Blocks を自然言語で探せる Bob のモードで�
 - Building Blocks ドキュメント: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
 - Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs>
 
-[次へ →](part1.md){ .workshop-next }
+[次へ →](preparation.md){ .workshop-next }
