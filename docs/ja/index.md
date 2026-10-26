@@ -43,11 +43,11 @@ Building Blocks を使わない場合、設計や実装を個別に用意する�
 
 | 領域 | グループ | 個別の README |
 | --- | --- | --- |
-| AI Control Plane | Agents, Control, Engineering | [AI Control Plane README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/ai/README.md) |
-| Streamhouse | Real-Time, Pipelines, Lakehouse | [Streamhouse README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/streamhouse/README.md) |
-| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/automation/README.md) |
+| AI Control Plane（旧: AI） | Agents, Govern, Engineering | [AI Control Plane README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/ai/README.md) |
+| Data | Pipelines, Streamhouse, Lakehouse | [Data README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/data/README.md) |
+| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/automation/README.md) |
 
-参考: [Building Blocks 全体の README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/README.md)
+参考: [Building Blocks 全体の README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/README.md)
 
 ## Building Blocks Explorer
 
@@ -69,7 +69,7 @@ Explorer は、Building Blocks を自然言語で探せる Bob のモードで�
 
 ## 参考文献
 
-- Building Blocks: <https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4>
+- Building Blocks: <https://github.com/ibm-self-serve-assets/building-blocks/tree/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5>
 - Building Blocks ドキュメント: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
 - Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs>
 

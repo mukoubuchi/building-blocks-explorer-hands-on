@@ -32,7 +32,7 @@ This is a 60-minute beginner workshop delivered in English or Japanese. Bob is a
   <tbody>
     <tr>
       <td align="right" nowrap>0–5</td>
-      <td>Recap AI, Data, Automation; distinguish block, mode, skill, Explorer</td>
+      <td>Recap AI Control Plane (formerly AI), Data, Automation; distinguish block, mode, skill, Explorer</td>
       <td>Avoid enumerating every block or promising ROI</td>
     </tr>
     <tr>

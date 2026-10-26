@@ -43,11 +43,11 @@ Without Building Blocks, you need to prepare the design and implementation separ
 
 | Area | Groups | Area README |
 | --- | --- | --- |
-| AI Control Plane | Agents, Control, Engineering | [AI Control Plane README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/ai/README.md) |
-| Streamhouse | Real-Time, Pipelines, Lakehouse | [Streamhouse README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/streamhouse/README.md) |
-| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/automation/README.md) |
+| AI Control Plane (formerly AI) | Agents, Govern, Engineering | [AI Control Plane README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/ai/README.md) |
+| Data | Pipelines, Streamhouse, Lakehouse | [Data README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/data/README.md) |
+| Automation | Operate, Secure, Optimize | [Automation README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/automation/README.md) |
 
-Reference: [Building Blocks root README](https://github.com/ibm-self-serve-assets/building-blocks/blob/5c610971dc72f9e9035821b3cb2c3edea868f8b4/README.md)
+Reference: [Building Blocks root README](https://github.com/ibm-self-serve-assets/building-blocks/blob/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5/README.md)
 
 ## Building Blocks Explorer
 
@@ -69,7 +69,7 @@ The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`.
 
 ## References
 
-- Building Blocks: <https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4>
+- Building Blocks: <https://github.com/ibm-self-serve-assets/building-blocks/tree/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5>
 - Building Blocks documentation: <https://ibm-self-serve-assets.github.io/building-blocks-docs/>
 - Explorer: <https://github.com/ibm-self-serve-assets/building-blocks/tree/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/explore-BBs>
 

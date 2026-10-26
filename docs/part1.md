@@ -45,7 +45,7 @@ Select the small gear icon (Settings) at the top right of the IBM Bob panel. It 
 Paste into Bob's chat:
 
 ```text
-Use the Building Blocks catalog tools to show one candidate each for AI, Data, and Automation.
+Use the Building Blocks catalog tools to show one candidate each for AI Control Plane (formerly AI), Data, and Automation.
 Briefly give its name, purpose, and source URL.
 Research only. Installation is out of scope.
 ```
@@ -63,7 +63,7 @@ Confirm a catalog tool result (such as `list_building_blocks`) and open a source
     | Installer unavailable | Check uv/uvx and fully restart Bob; [exercises 1–3](part2.md) can continue if the catalog works |
     | First start is slow | Wait for the initial dependency download |
     | Catalog unavailable | Restart Bob once; if still blocked, ask the instructor and follow the instructor's shared screen |
-    | Source link is stale | Find the README from the [Building Blocks overview](https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4) and record the corrected URL or mark it unverified |
+    | Source link is stale | Find the README from the [Building Blocks overview](https://github.com/ibm-self-serve-assets/building-blocks/tree/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5) and record the corrected URL or mark it unverified |
 
     If using READMEs without a working Explorer, record this as a source-reading fallback.
 

@@ -45,7 +45,7 @@ IBM Bob のパネルの右上にある小さな歯車のアイコン（Settings�
 Bob のチャットへ貼り付けます。
 
 ```text
-Building Blocks のカタログツールを使い、AI、Data、Automation から候補を 1 つずつ紹介する。
+Building Blocks のカタログツールを使い、AI Control Plane（旧: AI）、Data、Automation から候補を 1 つずつ紹介する。
 各候補には名前、用途、出典 URL を添える。
 調査のみ。インストールは対象外。
 ```
@@ -63,7 +63,7 @@ Explorer は導入操作もできるため、接続確認では調査だけを�
     | インストーラーが使えない | uv/uvx を確認し、Bob を完全に再起動する。カタログが動けば [課題 1〜3](part2.md) は続けられる |
     | 初回起動が遅い | 依存パッケージのダウンロードを待つ |
     | カタログが使えない | Bob を 1 回再起動する。解決しなければ講師へ相談し、講師の画面共有で続ける |
-    | 出典リンクが古い | [Building Blocks の概要](https://github.com/ibm-self-serve-assets/building-blocks/tree/5c610971dc72f9e9035821b3cb2c3edea868f8b4) から README を探し、参照し直した URL または未確認と記録する |
+    | 出典リンクが古い | [Building Blocks の概要](https://github.com/ibm-self-serve-assets/building-blocks/tree/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5) から README を探し、参照し直した URL または未確認と記録する |
 
     Explorer を使わず README だけで進めた場合は、資料を読んだ代替演習と記録します。
 
