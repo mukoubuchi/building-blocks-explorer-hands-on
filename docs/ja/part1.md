@@ -16,7 +16,19 @@
 
 ## ステップ 2: Bob でモードを選ぶ
 
-「Open Folder」で、`README.md` と `.bob` が入った `building-blocks-explorer` を開きます。Bob はフォルダを制限モードで開きます。帯の「管理」、続いて「信頼する」を選び、信頼の画面を閉じます。モードの選択欄で「🧱 IBM Building Blocks Explorer」を選びます。
+1. IBM Bob を起動します。
+1. `README.md` と `.bob` が入った `building-blocks-explorer` フォルダを開きます。
+
+    === "macOS"
+
+        メニューの <kbd>ファイル</kbd> → <kbd>開く...</kbd> を選び、`building-blocks-explorer` フォルダを選びます。<kbd>⌘</kbd> + <kbd>O</kbd> でも開けます。
+
+    === "Windows"
+
+        メニューの <kbd>ファイル</kbd> → <kbd>フォルダーを開く...</kbd> を選び、`building-blocks-explorer` フォルダを選びます。
+
+1. Bob はフォルダを制限モードで開きます。帯の「管理」、続いて「信頼する」を選び、信頼の画面を閉じます。
+1. IBM Bob のパネルで、チャット入力欄の下にあるモードの選択欄を開き、「🧱 IBM Building Blocks Explorer」を選びます。
 
 ## ステップ 3: 接続を確認する
 
@@ -28,7 +40,7 @@ IBM Bob のパネルの右上にある小さな歯車のアイコン（Settings�
 | `building-blocks-installer` | uvx でローカルのインストーラーを動かす |
 
 !!! warning "インストーラーの不具合"
-    `building-blocks-installer` は上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動せず、MCP の画面にエラーが出ます。一覧のステータスは「切断済み」と表示されます。[課題 1〜3](part2.md) はカタログだけを使うので、そのまま進めます。[追加の演習](part2.md#extra) にはインストーラーが必要です。
+    `building-blocks-installer` は上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動せず、MCP の画面では「切断済み」と表示されます。[課題 1〜3](part2.md) はカタログだけを使うので、そのまま進めます。[追加の演習](part2.md#extra) にはインストーラーが必要です。
 
 Bob のチャットへ貼り付けます。
 

@@ -16,7 +16,19 @@ Download the [official Explorer ZIP](https://raw.githubusercontent.com/ibm-self-
 
 ## Step 2: Select the mode in Bob
 
-Use **Open Folder** to open `building-blocks-explorer`, containing `README.md` and `.bob`. Bob opens it in restricted mode: select **Manage** in the banner, then **Trust**, and close the trust editor. Choose **🧱 IBM Building Blocks Explorer** from the mode picker.
+1. Launch IBM Bob.
+1. Open the `building-blocks-explorer` folder, which contains `README.md` and `.bob`.
+
+    === "macOS"
+
+        Select <kbd>File</kbd> → <kbd>Open...</kbd> and choose the `building-blocks-explorer` folder, or press <kbd>⌘</kbd> + <kbd>O</kbd>.
+
+    === "Windows"
+
+        Select <kbd>File</kbd> → <kbd>Open Folder...</kbd> and choose the `building-blocks-explorer` folder.
+
+1. Bob opens the folder in restricted mode: select **Manage** in the banner, then **Trust**, and close the trust editor.
+1. In the IBM Bob panel, open the mode picker below the chat input and choose **🧱 IBM Building Blocks Explorer**.
 
 ## Step 3: Check the connection
 
@@ -28,7 +40,7 @@ Select the small gear icon (Settings) at the top right of the IBM Bob panel. It 
 | `building-blocks-installer` | Runs the local installer through uvx |
 
 !!! warning "Installer bug"
-    `building-blocks-installer` does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), and the MCP screen shows an error. Its status in the list is **Disconnected**. [Exercises 1–3](part2.md) use only the catalog, so continue. The [additional exercises](part2.md#extra) need the installer.
+    `building-blocks-installer` does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), and the MCP screen shows it as **Disconnected**. [Exercises 1–3](part2.md) use only the catalog, so continue. The [additional exercises](part2.md#extra) need the installer.
 
 Paste into Bob's chat:
 

@@ -17,7 +17,7 @@
 
 ## Scenario
 
-Consider someone planning a solution who wants to know whether IBM already offers reference implementations for a need such as real-time data streaming or secrets management. The Building Blocks span three areas and nine groups, and each area has its own README. In this workshop, they ask IBM Bob with the Building Blocks Explorer mode in plain language, and Explorer searches the catalog and returns candidates with their sources. Starting from these candidates, they can try product combinations from existing examples and code instead of preparing the design and implementation separately.
+Consider someone planning a solution who wants to know whether IBM already offers reference implementations for a need such as real-time data streaming or secrets management. In this workshop, they ask IBM Bob with the Building Blocks Explorer mode in plain language, and Explorer searches the catalog and returns candidates with their sources. Starting from these candidates, they can try product combinations from existing examples and code instead of preparing the design and implementation separately.
 
 ## Before you start
 
