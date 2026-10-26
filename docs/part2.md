@@ -33,7 +33,7 @@ Are there Building Blocks for document search or RAG?
 Use Explorer's local installer to add the Building Blocks you find to this workspace and to draw an architecture diagram. These exercises are not part of the agenda's time. Bob asks for approval for each installer operation; check it and approve.
 
 !!! warning "uv is required"
-    These exercises require [installing uv](preparation.md). The installer does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so they cannot run until it is fixed. With the official setup, they have not been run through with Bob yet.
+    These exercises require [installing uv](preparation.md). The installer does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), so they cannot run until it is fixed.
 
 ### Exercise 4: install a skill {#exercise-4}
 

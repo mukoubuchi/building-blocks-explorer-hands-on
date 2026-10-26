@@ -33,7 +33,7 @@ Explorer に質問を貼り付け、回答を得ます。
 Explorer のローカルインストーラーで、見つけた Building Blocks をこのワークスペースに入れ、構成図を描きます。進め方の時間には含めていません。Bob はインストーラーの操作のたびに承認を求めるので、内容を確かめて承認します。
 
 !!! warning "uv の導入が必須"
-    追加の演習には [uv の導入](preparation.md) が必須です。今はインストーラーが上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動しないため、修正されるまで実行できません。公式の設定のままでは、まだ Bob で通せていません。
+    追加の演習には [uv の導入](preparation.md) が必須です。今はインストーラーが上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動しないため、修正されるまで実行できません。
 
 ### 課題 4: スキルを入れる {#exercise-4}
 
