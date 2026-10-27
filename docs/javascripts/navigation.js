@@ -1,4 +1,11 @@
-/** Keep page controls working after Material's instant navigation updates. */
+/**
+ * Keep page controls working after Material's instant navigation updates.
+ *
+ * Instant navigation replaces the page container on every tab or link activation, so
+ * anything inside it is looked up again on each document$ emission. The tab strip comes
+ * from overrides/partials/tabs.html without a data-md-component attribute, so it stays
+ * mounted and is bound only once.
+ */
 (function() {
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     const tabs = document.querySelector('.md-tabs');
@@ -50,7 +57,8 @@
     document$.subscribe(() => {
         updateBackToTop();
         hintScrollableCodeBlocks();
-        // The selector updates the active item synchronously in this emission.
+        // selector-indicator.js marks the active item in this same emission, and it is
+        // subscribed after this script, so read the result in the next frame.
         requestAnimationFrame(centerActiveTab);
     });
 })();

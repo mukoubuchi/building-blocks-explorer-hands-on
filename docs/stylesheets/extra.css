@@ -18,4 +18,9 @@
  * - code.css: Code blocks, syntax highlighting, and inline code
  * - components.css: Search, task lists, admonitions, and other UI components
  * - language-switcher.css: Language switcher styles
+ * - palette.css: Colors, callouts, and tables
+ * - fonts.css: Bundled IBM Plex fonts
+ *
+ * These files are the same in every hands-on site. Styles that only one site uses
+ * live in a file of their own, listed after this one in that site's mkdocs.yml.
  */

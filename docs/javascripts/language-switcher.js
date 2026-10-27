@@ -1,5 +1,5 @@
 (function() {
-    const siteConfig = window.BuildingBlocksHandsOn && window.BuildingBlocksHandsOn.site;
+    const siteConfig = window.HandsOn && window.HandsOn.site;
     const projectBase = siteConfig ? siteConfig.projectBase : '';
 
     function getProjectBase() {
