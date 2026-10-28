@@ -4,13 +4,15 @@ Time: 30 minutes (25–55)
 
 Paste a question into Explorer and receive an answer.
 
-## Exercise 1: ask about data streaming {#exercise-1}
+## Exercise 1: ask about system modernization for a public sector client {#exercise-1}
 
 Paste and run the following:
 
 ```text
-Are there Building Blocks for real-time data streaming?
+Are there Building Blocks to propose to a public sector client that wants to modernize its legacy systems?
 ```
+
+If Bob asks a question with choices, pick one. If Bob asks to approve creating a file or installing something, select **Reject**; once Bob has named candidates, move on.
 
 ## Exercise 2: ask about security for a financial services client {#exercise-2}
 

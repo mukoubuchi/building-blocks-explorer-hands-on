@@ -4,7 +4,7 @@ Time: 5 minutes (55–60)
 
 ## Completion check
 
-- [ ] Received an answer about data streaming
+- [ ] Received an answer about system modernization for a public sector client
 - [ ] Received an answer about security for a financial services client
 - [ ] Received an answer about a manufacturing client
 
