@@ -27,7 +27,7 @@ Download the [official Explorer ZIP](https://raw.githubusercontent.com/ibm-self-
 
         Select <kbd>File</kbd> → <kbd>Open Folder...</kbd> and choose the `building-blocks-explorer` folder.
 
-1. Bob opens the folder in restricted mode: select **Manage** in the banner, then **Trust**, and close the trust editor.
+1. If a restricted mode banner appears, select **Manage** in the banner, then **Trust**, and close the trust editor.
 1. In the IBM Bob panel, open the mode picker below the chat input and choose **🧱 IBM Building Blocks Explorer**.
 
 ## Step 3: Check the connection
