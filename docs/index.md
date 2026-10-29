@@ -11,7 +11,7 @@
 - **Exercises**:
     - [Install uv](preparation.md): install uv and uvx, and confirm their versions.
     - [Open Explorer](part1.md): extract the official Explorer ZIP, select the mode in Bob, and confirm the connection to the catalog.
-    - [Exercises](part2.md): enter three questions (system modernization for a public sector client, security for a financial services client, a manufacturing client) and review the answers, then use the local installer to add a skill and a mode to the workspace and draw an architecture diagram.
+    - [Exercises](part2.md): enter six questions. In [exercises 1–3](part2.md), enter three questions (system modernization for a public sector client, security for a financial services client, a manufacturing client) and review the answers. In the [additional exercises](part2.md#extra), which need uv, enter the other three questions, use the local installer to add a skill and a mode to the workspace, and draw an architecture diagram.
 - **Time**: 60 minutes
 - **Environment**: Bob and uv run on each participant's computer, and the catalog is a remote service reached over the internet. No cloud API key is used.
 
@@ -65,7 +65,7 @@ The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`.
     The Explorer mode and its connection settings come from the official Explorer ZIP (as of September 9, 2026) as they are. This workshop does not hand out a ZIP; participants download the official one. The text you paste into Bob was written for this workshop.
 
     - **[Connection check](part1.md#step-3-check-the-connection)**: it says "Research only. Installation is out of scope." because Explorer can also install.
-    - **[The three exercise questions](part2.md)**: they ask about a client's industry (a public sector client that wants to modernize its legacy systems, financial services with strict security requirements, and manufacturing).
+    - **[The six exercise questions](part2.md)**: the three in [exercises 1–3](part2.md) ask about a client's industry (a public sector client that wants to modernize its legacy systems, financial services with strict security requirements, and manufacturing). The three in the [additional exercises](part2.md#extra), which need uv, ask to install a skill and a mode and to draw an architecture diagram.
 
 ## References
 
