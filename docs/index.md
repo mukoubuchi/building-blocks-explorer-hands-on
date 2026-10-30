@@ -55,7 +55,7 @@ Explorer is a Bob mode for finding Building Blocks through natural-language ques
 
 | Term | Relationship to Explorer | Files under `.bob` |
 | --- | --- | --- |
-| Catalog | The searchable collection of Building Blocks, related documentation, skills, and modes | Hosted externally; its connection is defined in `.bob/mcp.json` |
+| Catalog | The searchable collection of Building Blocks, related documentation, modes, and skills | Hosted externally; its connection is defined in `.bob/mcp.json` |
 | Mode | Settings that adapt Bob to a type of work. Explorer is one such mode | `.bob/custom_modes.yaml` defines names, behavioral instructions, and other settings |
 | Skill | Instructions and knowledge for a specific task. Explorer can find related skills | When installed, instructions reside in `.bob/skills/<skill-name>/SKILL.md`, sometimes alongside supporting files |
 

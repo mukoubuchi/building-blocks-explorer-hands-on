@@ -55,7 +55,7 @@ Explorer は、Building Blocks を自然言語で探せる Bob のモードで�
 
 | 用語 | Explorer との関係 | `.bob` 内のファイル |
 | --- | --- | --- |
-| カタログ | Building Blocks と関連資料、スキル、モードの情報をまとめた検索先 | 本体は外部サービス。接続先を `.bob/mcp.json` に定義 |
+| カタログ | Building Blocks と関連資料、モード、スキルの情報をまとめた検索先 | 本体は外部サービス。接続先を `.bob/mcp.json` に定義 |
 | モード | Bob の動作を作業に合わせて切り替える設定。Explorer もその 1 つ | `.bob/custom_modes.yaml` に名前や動作の指示などを定義 |
 | スキル | 特定の作業に使う手順や知識。Explorer で関連するものを探せる | 追加すると `.bob/skills/<スキル名>/SKILL.md` に手順を配置。補助ファイルを含む場合もある |
 
