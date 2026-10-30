@@ -36,8 +36,8 @@ IBM Bob のパネルの右上にある小さな歯車のアイコン（Settings�
 
 | サーバー | 役割 |
 | --- | --- |
-| `building-blocks` | リモートのカタログを検索する |
-| `building-blocks-installer` | uvx でローカルのインストーラーを動かす |
+| `building-blocks` | リモートのカタログを検索する。 |
+| `building-blocks-installer` | uvx でローカルのインストーラーを動かす。 |
 
 !!! warning "インストーラーの不具合"
     `building-blocks-installer` は上流の不具合（[#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)）で起動せず、MCP の画面では「切断済み」と表示されます。[課題 1〜3](part2.md) はカタログだけを使うので、そのまま進めます。[追加の演習](part2.md#extra) にはインストーラーが必要です。
@@ -59,11 +59,11 @@ Explorer は導入操作もできるため、接続確認では調査だけを�
 ??? tip "うまく動かない場合"
     | 症状 | 対処 |
     | --- | --- |
-    | モードが表示されない | 展開先に `.bob` があることを確認し、Bob を再読み込みする |
-    | インストーラーが使えない | uv/uvx を確認し、Bob を完全に再起動する。カタログが動けば [課題 1〜3](part2.md) は続けられる |
-    | 初回起動が遅い | 依存パッケージのダウンロードを待つ |
-    | カタログが使えない | Bob を 1 回再起動する。解決しなければ講師へ相談し、講師の画面共有で続ける |
-    | 出典リンクが古い | [Building Blocks の概要](https://github.com/ibm-self-serve-assets/building-blocks/tree/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5) から README を探し、参照し直した URL または未確認と記録する |
+    | モードが表示されない | 展開先に `.bob` があることを確認し、Bob を再読み込みする。 |
+    | インストーラーが使えない | uv/uvx を確認し、Bob を完全に再起動する。カタログが動けば [課題 1〜3](part2.md) は続けられる。 |
+    | 初回起動が遅い | 依存パッケージのダウンロードを待つ。 |
+    | カタログが使えない | Bob を 1 回再起動する。解決しなければ講師へ相談し、講師の画面共有で続ける。 |
+    | 出典リンクが古い | [Building Blocks の概要](https://github.com/ibm-self-serve-assets/building-blocks/tree/031ceebaed354fddab43b5ff4ef53bff0ed9ffc5) から README を探し、参照し直した URL または未確認と記録する。 |
 
     Explorer を使わず README だけで進めた場合は、資料を読んだ代替演習と記録します。
 
