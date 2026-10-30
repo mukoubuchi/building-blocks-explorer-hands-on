@@ -36,8 +36,8 @@ Select the small gear icon (Settings) at the top right of the IBM Bob panel. It 
 
 | Server | Role |
 | --- | --- |
-| `building-blocks` | Searches the remote catalog. |
-| `building-blocks-installer` | Runs the local installer through uvx. |
+| `building-blocks` | Searches the remote catalog |
+| `building-blocks-installer` | Runs the local installer through uvx |
 
 !!! warning "Installer bug"
     `building-blocks-installer` does not start because of an upstream bug ([#262](https://github.com/ibm-self-serve-assets/building-blocks/issues/262)), and the MCP screen shows it as **Disconnected**. [Exercises 1–3](part2.md) use only the catalog, so continue. The [additional exercises](part2.md#extra) need the installer.

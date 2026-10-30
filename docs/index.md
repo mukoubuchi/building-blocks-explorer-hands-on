@@ -3,7 +3,7 @@
 ## Overview
 
 - **Objective**: Understand how to find the Building Blocks that match a business need in plain language with IBM Bob and the Building Blocks Explorer mode.
-- **Audience**: Beginners. IBM Bob must be installed, signed in, and usable.
+- **Audience**: The workshop is for beginners. IBM Bob must be installed, signed in, and usable.
 - **Learning outcomes**:
     - The structure of the Building Blocks: areas, groups, and their READMEs
     - The relation of the catalog, modes, and skills to Explorer
@@ -55,9 +55,9 @@ Explorer is a Bob mode for finding Building Blocks through natural-language ques
 
 | Term | Relationship to Explorer | Files under `.bob` |
 | --- | --- | --- |
-| Catalog | The searchable collection of Building Blocks, related documentation, modes, and skills. | Hosted externally; its connection is defined in `.bob/mcp.json`. |
-| Mode | Settings that adapt Bob to a type of work. Explorer is one such mode. | `.bob/custom_modes.yaml` defines names, behavioral instructions, and other settings. |
-| Skill | Instructions and knowledge for a specific task. Explorer can find related skills. | When installed, instructions reside in `.bob/skills/<skill-name>/SKILL.md`, sometimes alongside supporting files. |
+| Catalog | The searchable collection of Building Blocks, related documentation, modes, and skills | Hosted externally, with its connection defined in `.bob/mcp.json` |
+| Mode | Settings that adapt Bob to a type of work, such as Explorer | `.bob/custom_modes.yaml` defines names, behavioral instructions, and other settings. |
+| Skill | Instructions and knowledge for a specific task, which Explorer can find | When installed, instructions reside in `.bob/skills/<skill-name>/SKILL.md`, sometimes alongside supporting files. |
 
 The official Explorer ZIP includes `.bob/custom_modes.yaml` and `.bob/mcp.json`. Skill files are added when a skill is installed.
 

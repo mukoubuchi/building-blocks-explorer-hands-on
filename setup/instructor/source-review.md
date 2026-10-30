@@ -39,9 +39,9 @@ The Explorer ZIP contains `README.md`, `.bob/custom_modes.yaml`, and `.bob/mcp.j
 
 ## Exercise evidence
 
-- [RAG README](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/data/pipelines/rag/README.md): custom/reference ingestion, retrieval, and generation; a separate managed OpenRAG recommendation; runnable assets have product/environment prerequisites.
-- [Agent Builder README](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/ai/agents/agent-builder/README.md): watsonx Orchestrate ADK and agent-oriented modes/assets.
-- [Secrets Management README](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/automation/secure/non-human-identity-and-secret-management/secrets-management/README.md): Vault-oriented secret detection, migration, and remediation material. Its parent README focuses on Security Verify; the workshop uses the child for Vault evidence.
+- [RAG README](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/data/pipelines/rag/README.md): it covers custom/reference ingestion, retrieval, and generation, and separately recommends the managed OpenRAG; its runnable assets have product/environment prerequisites.
+- [Agent Builder README](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/ai/agents/agent-builder/README.md): it covers the watsonx Orchestrate ADK and agent-oriented modes/assets.
+- [Secrets Management README](https://github.com/ibm-self-serve-assets/building-blocks/blob/f721f5ec1915225ade62d8d0e780fe6b19aa58b8/automation/secure/non-human-identity-and-secret-management/secrets-management/README.md): it covers Vault-oriented secret detection, migration, and remediation. Its parent README focuses on Security Verify; the workshop uses the child for Vault evidence.
 
 ## Design decisions
 
